@@ -1,5 +1,5 @@
 {
-    "name": "loversy-reactjs",
+    "name": "wedding-2022",
     "version": "1.0.0",
     "description": "Wedding Photography React JS Template",
     "author": "Adveits",
@@ -32,7 +32,8 @@
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
-        "predeploy": "npm run build",
+        "predeploy": "npm run build && cp 404.html build",
+        "deploy": "gh-pages -d build",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
