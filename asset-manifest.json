@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d088b99.chunk.css",
-    "main.js": "/static/js/main.41b5cbf4.chunk.js",
-    "main.js.map": "/static/js/main.41b5cbf4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ad887576.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ad887576.js.map",
-    "static/css/2.2b084824.chunk.css": "/static/css/2.2b084824.chunk.css",
-    "static/js/2.0a177376.chunk.js": "/static/js/2.0a177376.chunk.js",
-    "static/js/2.0a177376.chunk.js.map": "/static/js/2.0a177376.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.486a41a6f3d78c08c539d6f29eaa07db.js": "/precache-manifest.486a41a6f3d78c08c539d6f29eaa07db.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.2b084824.chunk.css.map": "/static/css/2.2b084824.chunk.css.map",
-    "static/css/main.7d088b99.chunk.css.map": "/static/css/main.7d088b99.chunk.css.map",
-    "static/media/style.scss": "/static/media/loader.5cd4b9f4.svg"
+    "main.css": "/wedding/static/css/main.811bde4e.chunk.css",
+    "main.js": "/wedding/static/js/main.5c61f86e.chunk.js",
+    "main.js.map": "/wedding/static/js/main.5c61f86e.chunk.js.map",
+    "runtime-main.js": "/wedding/static/js/runtime-main.7a899cdc.js",
+    "runtime-main.js.map": "/wedding/static/js/runtime-main.7a899cdc.js.map",
+    "static/css/2.2b084824.chunk.css": "/wedding/static/css/2.2b084824.chunk.css",
+    "static/js/2.041ba511.chunk.js": "/wedding/static/js/2.041ba511.chunk.js",
+    "static/js/2.041ba511.chunk.js.map": "/wedding/static/js/2.041ba511.chunk.js.map",
+    "index.html": "/wedding/index.html",
+    "precache-manifest.40670d65c0a0cb6d0b2f551f771c2d29.js": "/wedding/precache-manifest.40670d65c0a0cb6d0b2f551f771c2d29.js",
+    "service-worker.js": "/wedding/service-worker.js",
+    "static/css/2.2b084824.chunk.css.map": "/wedding/static/css/2.2b084824.chunk.css.map",
+    "static/css/main.811bde4e.chunk.css.map": "/wedding/static/css/main.811bde4e.chunk.css.map",
+    "static/media/style.scss": "/wedding/static/media/loader.5cd4b9f4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad887576.js",
+    "static/js/runtime-main.7a899cdc.js",
     "static/css/2.2b084824.chunk.css",
-    "static/js/2.0a177376.chunk.js",
-    "static/css/main.7d088b99.chunk.css",
-    "static/js/main.41b5cbf4.chunk.js"
+    "static/js/2.041ba511.chunk.js",
+    "static/css/main.811bde4e.chunk.css",
+    "static/js/main.5c61f86e.chunk.js"
   ]
 }
