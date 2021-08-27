@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/starter-project/static/css/main.05293981.chunk.css",
+    "main.js": "/starter-project/static/js/main.160fc59a.chunk.js",
+    "main.js.map": "/starter-project/static/js/main.160fc59a.chunk.js.map",
+    "runtime-main.js": "/starter-project/static/js/runtime-main.9cc7b061.js",
+    "runtime-main.js.map": "/starter-project/static/js/runtime-main.9cc7b061.js.map",
+    "static/css/2.2b084824.chunk.css": "/starter-project/static/css/2.2b084824.chunk.css",
+    "static/js/2.0a177376.chunk.js": "/starter-project/static/js/2.0a177376.chunk.js",
+    "static/js/2.0a177376.chunk.js.map": "/starter-project/static/js/2.0a177376.chunk.js.map",
+    "index.html": "/starter-project/index.html",
+    "precache-manifest.575b6ef50483bbcaeda9003ed72cb748.js": "/starter-project/precache-manifest.575b6ef50483bbcaeda9003ed72cb748.js",
+    "service-worker.js": "/starter-project/service-worker.js",
+    "static/css/2.2b084824.chunk.css.map": "/starter-project/static/css/2.2b084824.chunk.css.map",
+    "static/css/main.05293981.chunk.css.map": "/starter-project/static/css/main.05293981.chunk.css.map",
+    "static/media/style.scss": "/starter-project/static/media/loader.5cd4b9f4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cc7b061.js",
+    "static/css/2.2b084824.chunk.css",
+    "static/js/2.0a177376.chunk.js",
+    "static/css/main.05293981.chunk.css",
+    "static/js/main.160fc59a.chunk.js"
+  ]
+}
