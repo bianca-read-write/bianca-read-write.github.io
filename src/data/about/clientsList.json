@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "assets/img/demo/28_img.png",
+        "alt": "Balkan"
+    },
+    {
+        "id": 2,
+        "imgSrc": "assets/img/demo/29_img.png",
+        "alt": "Adveits"
+    },
+    {
+        "id": 3,
+        "imgSrc": "assets/img/demo/30_img.png",
+        "alt": "Swiger"
+    },
+    {
+        "id": 4,
+        "imgSrc": "assets/img/demo/31_img.png",
+        "alt": "The mandala community"
+    },
+    {
+        "id": 5,
+        "imgSrc": "assets/img/demo/28_img.png",
+        "alt": "Balkan"
+    },
+    {
+        "id": 6,
+        "imgSrc": "assets/img/demo/29_img.png",
+        "alt": "Adveits"
+    }
+]

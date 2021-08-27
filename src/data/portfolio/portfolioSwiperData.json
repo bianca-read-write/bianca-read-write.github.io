@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "assets/img/placeholder/1600x900.jpg",
+        "alt": "Image 1"
+    },
+    {
+        "id": 2,
+        "imgSrc": "assets/img/placeholder/1600x900.jpg",
+        "alt": "Image 2"
+    },
+    {
+        "id": 3,
+        "imgSrc": "assets/img/placeholder/1600x900.jpg",
+        "alt": "Image 3"
+    },
+    {
+        "id": 4,
+        "imgSrc": "assets/img/placeholder/1600x900.jpg",
+        "alt": "Image 4"
+    }
+]

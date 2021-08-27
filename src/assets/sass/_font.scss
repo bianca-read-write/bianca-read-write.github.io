@@ -1,0 +1,76 @@
+//=================================================
+// Fonts
+//=================================================
+
+// Lato-Regular
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url('../fonts/Lato/Lato-Regular/Lato-Regular.eot');
+    src: url('../fonts/Lato/Lato-Regular/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato/Lato-Regular/Lato-Regular.woff2') format('woff2'),
+         url('../fonts/Lato/Lato-Regular/Lato-Regular.woff') format('woff'),
+         url('../fonts/Lato/Lato-Regular/Lato-Regular.ttf') format('truetype'),
+         url('../fonts/Lato/Lato-Regular/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+// Lato-Bold
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('../fonts/Lato/Lato-Bold/Lato-Bold.eot');
+    src: url('../fonts/Lato/Lato-Bold/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Lato/Lato-Bold/Lato-Bold.woff2') format('woff2'),
+         url('../fonts/Lato/Lato-Bold/Lato-Bold.woff') format('woff'),
+         url('../fonts/Lato/Lato-Bold/Lato-Bold.ttf') format('truetype'),
+         url('../fonts/Lato/Lato-Bold/Lato-Bold.svg#Lato-Bold') format('svg');
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+// PlayfairDisplay-Regular
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular/PlayfairDisplay-Regular.eot');
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular/PlayfairDisplay-Regular.woff2') format('woff2'),
+         url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular/PlayfairDisplay-Regular.woff') format('woff'),
+         url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular/PlayfairDisplay-Regular.ttf') format('truetype'),
+         url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg');
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+// PlayfairDisplay-Bold
+@font-face {
+    font-family: 'PlayfairDisplay-Bold';
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold/PlayfairDisplay-Bold.eot');
+    src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff2') format('woff2'),
+         url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold/PlayfairDisplay-Bold.woff') format('woff'),
+         url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold/PlayfairDisplay-Bold.ttf') format('truetype'),
+         url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg');
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/*=============================
+// Font size
+=============================*/
+.font-size {
+    &-sm {
+        font-size: $f_size_sm;
+    }
+
+    &-df {
+        font-size: $f_size_df;
+    }
+
+    &-lg {
+        font-size: $f_size_lg;
+    }
+}

@@ -1,0 +1,135 @@
+//=================================================
+// Single
+//=================================================
+
+#single {
+    .single-content {
+        .img {
+            margin-bottom: $space_md;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        .meta {
+            margin-top: $space_md - 0.36rem;
+
+            &:first-child {
+                margin-top: 0;
+            }
+
+            p {
+                color: $body_main_element_primary_color;
+                font-family: $font_secondary;
+                font-style: italic;
+                font-size: $f_size_df;
+
+                span {
+                    margin-right: 0.263rem;
+
+                    &:last-child {
+                        margin-right: 0;
+                    }
+
+                    a {
+                        color: inherit;
+
+                        &:hover {
+                            color: $body_links_hover_color;
+                        }
+                    }
+                }
+            }
+        }
+
+        .title {
+            padding-top: $space_md;
+        }
+
+        .description {
+            margin-top: $space_md - 0.415rem;
+
+            input, textarea, select  {
+                @extend .form-lg;
+            }
+
+            [class*='tag-cloud'] {
+                display: table;
+                line-height: normal;
+                word-break: break-all;
+                margin-right: -$space_xs;
+                margin-top: -$space_xs;
+
+                .tag-cloud-link {
+                    @extend .btn;
+                    @extend .btn-primary;
+                    @extend .btn-sm;
+                    @extend .btn-regular;
+                    margin-top: $space_xs;
+                    margin-right: $space_xs;
+                    font-size: $f_size_df !important;
+                }
+            }
+        }
+
+        .tags {
+            padding-top: $space_md;
+            padding-bottom: $space_md;
+            border-bottom: 1px solid $body_border_color;
+
+            p {
+                display: table;
+                line-height: normal;
+                word-break: break-all;
+                margin-right: -$space_xs;
+                margin-top: -$space_xs;
+
+                &:before, &:after {
+                    display: none;
+                }
+
+                a {
+                    @extend .btn;
+                    @extend .btn-primary;
+                    @extend .btn-sm;
+                    @extend .btn-regular;
+                    margin-top: $space_xs;
+                    margin-right: $space_xs;
+                    font-size: $f_size_df;
+                }
+            }
+        }
+    }
+}
+
+/*=============================
+// Single post
+=============================*/
+.single-post, [class*='single-'] {
+    #single {
+        .single-content {
+            .img {
+                &.object-fit {
+                    &:before {
+                        padding-top: 57.2%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*=============================
+// Single portfolio
+=============================*/
+.single-portfolio, .single-adveits_portfolio {
+    #single {
+        .single-content {
+            .tags {
+                padding-bottom: 0;
+                border: 0;
+            }
+        }
+    }
+}

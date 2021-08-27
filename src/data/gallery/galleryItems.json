@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Honeymoon photography",
+        "category": "gallery-item-visible honeymoon",
+        "link": "/portfolio-inside",
+        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": 2,
+        "title": "Wedding flowers",
+        "category": "gallery-item-visible wedding",
+        "link": "/portfolio-inside",
+        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": 3,
+        "title": "Wedding photography",
+        "category": "gallery-item-visible anniversary",
+        "link": "/portfolio-inside",
+        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": 4,
+        "title": "Wedding photography",
+        "category": "gallery-item-visible wedding",
+        "link": "/portfolio-inside",
+        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": 5,
+        "title": "Anniversary photography",
+        "category": "anniversary",
+        "link": "/portfolio-inside",
+        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": 6,
+        "title": "Honeymoon photography",
+        "category": "honeymoon anniversary",
+        "link": "/portfolio-inside",
+        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": 7,
+        "title": "Wedding photography",
+        "category": "wedding anniversary",
+        "link": "/portfolio-inside",
+        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": 8,
+        "title": "Wedding cake",
+        "category": "wedding",
+        "link": "/portfolio-inside",
+        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    },
+    {
+        "id": 9,
+        "title": "Wedding decorations",
+        "category": "wedding",
+        "link": "/portfolio-inside",
+        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "description": "Lorem ipsum dolor sit amet."
+    }
+]

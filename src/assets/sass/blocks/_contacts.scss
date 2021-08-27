@@ -1,0 +1,131 @@
+//=================================================
+// Contacts
+//=================================================
+
+.contact-me {
+	.contact-me-img-and-title {
+		position: relative;
+
+		.img {
+			min-height: 300px;
+
+			&.object-fit {
+				&:before {
+					padding-top: 43.8%;
+				}
+			}
+		}
+
+		.contact-me-title {
+			color: $body_text_tertiary_color;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			@include transform(translate(-50%, -50%));
+			text-align: center;
+			width: 100%;
+		}
+	}
+
+	.contact-me-content {
+		position: relative;
+		z-index: 2;
+		max-width: 1426px;
+		margin: auto;
+		margin-top: -11.9%;
+		padding-left: $space_md;
+		padding-right: $space_md;
+
+		@media #{$media_sm} {
+			margin-top: 0;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.contact-me-content-2 {
+			background-color: $body_background_color;
+			padding: $space_lg $space_md;
+			margin-bottom: -$space_lg;
+
+			@media #{$media_sm} {
+				padding-left: $space_lg / 2;
+				padding-right: $space_lg / 2;
+			}
+
+			.contact-me-description {
+				text-align: center;
+				max-width: 1050px;
+				margin: auto;
+			}
+
+			.contact-me-shortcode {
+				padding-top: $space_lg;
+				max-width: 1050px;
+				margin: auto;
+
+				[class*='-form'] {
+					@media #{$media_sm} {
+						.input-group {
+							.gutter-width {
+								width: 100%;
+
+								&:first-child {
+									padding-right: 0;
+									margin-bottom: $space_lg;
+								}
+
+								&:last-child {
+									padding-left: 0;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.contacts-item {
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	background-color: $light;
+
+	.img {
+		min-height: 250px;
+
+		&.object-fit {
+			&:before {
+				padding-top: 50%;
+			}
+		}
+	}
+
+	.contacts-item-content {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		@include transform(translate(-50%, -50%));
+		width: 100%;
+		z-index: 2;
+		padding: $space_lg;
+
+		.contacts-item-title {
+			color: $body_headline_color;
+			margin-bottom: 0;
+		}
+
+		.contacts-item-description {
+			padding-top: $space_lg;
+
+			a {
+				color: $body_text_primary_color;
+
+				&:hover {
+					color: $body_links_hover_color;
+				}
+			}
+		}
+	}
+}

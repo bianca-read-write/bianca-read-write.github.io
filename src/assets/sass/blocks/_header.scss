@@ -1,0 +1,30 @@
+//=================================================
+// Header
+//=================================================
+
+.site-header {
+    color: $header_color;
+
+    .wrapper {
+        background-color: $header_background_color;
+        padding-top: $header_padding_t;
+        padding-bottom: $header_padding_b;
+
+        .header-content {
+            .header-logo {
+                margin-right: 3.947rem;
+            }
+        }
+
+        .header-menu {
+            position: relative;
+
+            .menu-toggle {
+                position: absolute;
+                top: 50%;
+                @include transform(translateY(-50%));
+                right: 0;
+            }
+        }
+    }
+}

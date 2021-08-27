@@ -1,0 +1,235 @@
+//=================================================
+// Nav
+//=================================================
+
+.nav {
+	font-size: $f_size_df;
+	@extend .list-unstyled;
+
+	li {
+		margin-bottom: 0;
+	}
+
+	// Nav item
+	.nav-item {
+		font-weight: 400;
+
+		> a:not(.disabled):not(.active) {
+			color: $menu_links_color;
+		}
+
+		// Hover
+		&:hover {
+			> a:not(.disabled):not(.active) {
+				color: $menu_links_hover_color;
+			}
+		}
+
+		// Has children
+		&.nav-item-has-children {
+			> a:not(.disabled) {
+				font-weight: 400;
+			}
+		}
+
+		// Active
+		&.current-nav-item, &.active {
+			> a:not(.disabled) {
+				font-weight: 400;
+				color: $menu_links_active_color;
+			}
+
+			> .dropdown-icon {
+				[class*='fa-'] {
+					color: $menu_links_hover_color;
+				}
+			}
+		}
+	}
+
+	// Nav link
+	&:not(.nav-pills) {
+		.nav-link {
+			&:not(.disabled) {
+				color: $menu_links_color;
+
+				&:hover {
+					color: $menu_links_hover_color;
+				}
+
+				&.active {
+					font-weight: 400;
+					color: $menu_links_active_color;
+				}
+			}
+		}
+	}
+
+	// Nav pills
+	&.nav-pills {
+		.nav-link {
+			&:not(.disabled):not(.active) {
+				color: $menu_links_color;
+
+				&:hover {
+					color: $menu_links_hover_color;
+				}
+			}
+
+			&.active {
+				font-weight: 400;
+			}
+		}
+	}
+
+	// Nav tabs
+	&.nav-tabs {
+		li {
+			&:before, &:after {
+				display: none;
+			}
+		}
+	}
+}
+
+/*=============================
+// Menu primary
+=============================*/
+$menu_primary_header_fz: 2.632rem;
+$menu_primary_header_mb: 2.211rem;
+
+#menu-modal {
+	nav {
+		&.menu-primary {
+			ul.nav {
+				li.nav-item {
+					margin-bottom: $menu_primary_header_mb;
+					line-height: normal;
+					text-align: center;
+
+					&:before, &:after {
+						display: none;
+					}
+
+					&:last-child {
+						margin-bottom: 0;
+					}
+
+					a {
+						font-family: $font_menu_primary;
+					}
+
+					> a {
+						color: $menu_primary_links_color;
+						font-size: $menu_primary_header_fz;
+						position: relative;
+					}
+
+					&:hover {
+						> a {
+							color: $menu_primary_links_hover_color !important;
+						}
+
+						> .dropdown-custom-icon {
+							.dropdown-icon {
+								color: $menu_primary_links_hover_color;
+							}
+						}
+					}
+
+					&.current-nav-item, &.active, &.show {
+						> a {
+							color: $menu_primary_links_active_color;
+						}
+
+						> .dropdown-custom-icon {
+							.dropdown-icon {
+								color: $menu_primary_links_active_color;
+							}
+						}
+					}
+
+					// Dropdown
+					> .dropdown-custom-icon {
+						color: $menu_primary_links_color;
+						padding-left: $menu_primary_header_mb / 3;
+						font-size: $menu_primary_header_fz / 2;
+						@extend .transition-all;
+
+						&:hover {
+							.dropdown-icon {
+								color: $menu_primary_links_active_color;
+							}
+						}
+
+						.dropdown-icon {
+							@extend .transition-all;
+						}
+					}
+
+					.dropdown-menu {
+						position: relative;
+						top: 0;
+						float: none;
+						padding-bottom: 0;
+						background-color: transparent;
+						text-align: center;
+
+						li {
+							width: 100%;
+							margin-bottom: $menu_primary_header_mb / 1.5 !important;
+
+							&:first-child {
+								margin-top: $menu_primary_header_mb / 1.5 !important;
+							}
+
+							&:last-child {
+								margin-bottom: 0 !important;
+							}
+
+							> .dropdown-custom-icon {
+								padding-left: $menu_primary_header_mb / 3.5;
+								font-size: $menu_primary_header_fz / 2.5;
+							}
+
+							.dropdown-icon {
+								position: static;
+								top: 0;
+								@include transform(translateY(0));
+								right: 0;
+							}
+
+							a {
+								font-size: $menu_primary_header_fz / 1.5;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*=============================
+// Menu secondary at footer
+=============================*/
+.site-footer {
+	nav {
+		&.menu-secondary {
+			ul {
+				li {
+					margin-right: 1.368rem;
+					margin-bottom: 0;
+
+					&:last-child {
+						margin-right: 0;
+					}
+
+					i {
+						font-size: 0.842rem;
+					}
+				}
+			}
+		}
+	}
+}

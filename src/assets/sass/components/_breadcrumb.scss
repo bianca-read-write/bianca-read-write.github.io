@@ -1,0 +1,39 @@
+//=================================================
+// Breadcrumb
+//=================================================
+
+.breadcrumb {
+	margin-left: 0;
+	margin-bottom: -0.368rem !important;
+
+	.breadcrumb-item {
+		&:before {
+			margin-top: 0;
+			width: auto;
+			height: auto;
+		}
+
+		&:after {
+			display: none;
+		}
+	}
+}
+
+.breadcrumb-item {
+	color: $breadcrumb_color;
+	margin-bottom: 0 !important;
+
+	> a {
+		color: $breadcrumb_color;
+
+		&:hover {
+			color: $breadcrumb_hover_color;
+		}
+	}
+
+	+ .breadcrumb-item {
+		&::before {
+			font-family: $font_primary;
+		}
+	}
+}

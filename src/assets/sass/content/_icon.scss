@@ -1,0 +1,145 @@
+//=================================================
+// Icons
+//=================================================
+
+.fas {
+	&.fas-space-l {
+		padding-left: 0.737rem;
+	}
+
+	&.fas-space-r {
+		padding-right: 0.737rem;
+	}
+}
+
+.search-form {
+	.search {
+		.fas {
+			&.fa-search {
+				font-size: 0.947rem;
+			}
+		}
+	}
+}
+
+/*=============================
+// Close
+=============================*/
+.close {
+	opacity: 1;
+	@extend .transition-all;
+
+	> span {
+		&:not(.adveits-i) {
+			@include lhCrop-b(1, 0.55);
+			@include lhCrop-a(1, 0.55);
+		}
+	}
+
+	&:hover {
+		color: $body_links_hover_color;
+		@extend .transition-all;
+
+		.adveits-i {
+			&.adv-close {
+				span {
+					background-color: $body_links_hover_color;
+				}
+			}
+		}
+	}
+
+	&:not(:disabled):not(.disabled) {
+		&:hover, &:focus {
+			opacity: 1;
+		}
+	}
+}
+
+/*=============================
+// Adveits icons
+=============================*/
+.adveits-i {
+	display: block;
+
+	/*=================
+	// Hamburger
+	=================*/
+	&.adv-hamburger {
+		position: relative;
+		width: 40px;
+		height: 13px;
+		cursor: pointer;
+
+		span {
+			display: block;
+			position: absolute;
+			height: 3px;
+			width: 100%;
+			background: $body_links_color none repeat scroll 0% 0%;
+			opacity: 1;
+			right: 0;
+			transition: all $transition-s ease-in-out;
+			transform: rotate(0deg);
+
+			&:nth-child(1) {
+				margin-top: 0;
+			}
+
+			&:nth-child(2) {
+				width: 24px;
+				margin-top: 10px;
+			}
+		}
+
+		&:hover {
+			span {
+				background-color: $body_links_hover_color;
+			}
+		}
+	}
+
+	/*=================
+	// Close
+	=================*/
+	&.adv-close {
+		position: relative;
+		width: 18px;
+		height: 9px;
+		cursor: pointer;
+
+		span {
+			display: block;
+			position: absolute;
+			height: 3px;
+			width: 100%;
+			background: $body_links_color none repeat scroll 0% 0%;
+			opacity: 1;
+			right: 0;
+			transition: all $transition-s ease-in-out;
+			transform: rotate(0deg);
+
+			&:nth-child(1) {
+				transform: rotate(135deg);
+				-webkit-transform: rotate(135deg);
+				-ms-transform: rotate(135deg);
+				-o-transform: rotate(135deg);
+				margin-top: 0.158rem;
+			}
+
+			&:nth-child(2) {
+				transform: rotate(-135deg);
+				-webkit-transform: rotate(-135deg);
+				-ms-transform: rotate(-135deg);
+				-o-transform: rotate(-135deg);
+				margin-top: 0.158rem;
+			}
+		}
+
+		&:hover {
+			span {
+				background-color: $body_links_hover_color;
+			}
+		}
+	}
+}

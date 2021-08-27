@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "link": "/blog-single-post",
+        "imgSrc": "assets/img/placeholder/81x81.jpg",
+        "title": "Wedding planning basics"
+    },
+    {
+        "id": 2,
+        "link": "/blog-single-post",
+        "imgSrc": "assets/img/placeholder/81x81.jpg",
+        "title": "Should I hire a photographer? Is it worth it?"
+    },
+    {
+        "id": 3,
+        "link": "/blog-single-post",
+        "imgSrc": "assets/img/placeholder/81x81.jpg",
+        "title": "What should I do to become a professional wedding photographer?"
+    },
+    {
+        "id": 4,
+        "link": "/blog-single-post",
+        "imgSrc": "assets/img/placeholder/81x81.jpg",
+        "title": "Memorable wedding rings"
+    }
+]

@@ -1,0 +1,58 @@
+//=================================================
+// 404
+//=================================================
+
+.error404 {
+    #page-title {
+        .title {
+            > * {
+                font-size: 10.526rem;
+                @include lhCrop-b(1.31, 0.25);
+
+                &:last-child {
+                    @include lhCrop-a(1.31, 1.1);
+                }
+            }
+        }
+    }
+
+    #page-content {
+        .content {
+            .text {
+                padding-top: $space_lg;
+                max-width: 650px;
+                margin-bottom: 0;
+            }
+
+            .form {
+                max-width: 775px;
+                padding-top: $space_lg;
+            }
+
+            .button {
+                padding-top: $space_lg;
+            }
+
+            .img-404 {
+                position: absolute;
+                z-index: -1;
+                right: 0;
+                min-width: 300px;
+                max-width: 721px;
+                margin: 0 0 0 auto;
+
+                @media #{$media_lg} {
+                    margin-top: -55px;
+                }
+
+                @media #{$media_sm} {
+                    min-width: 230px;
+                }
+
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

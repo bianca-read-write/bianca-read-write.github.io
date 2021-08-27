@@ -1,0 +1,88 @@
+//=================================================
+// Page title
+//=================================================
+
+#page-title {
+    .page-title-img {
+        width: 42.7%;
+        min-width: 275px;
+        max-width: 661px;
+
+        @media #{$media_sm} {
+            position: absolute;
+            top: -42px;
+            min-width: 230px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .page-title-content {
+        position: relative;
+
+        .page-title-description {
+            position: absolute;
+            top: 50%;
+            @include transform(translateY(-50%));
+            padding-left: 25.5%;
+            width: 100%;
+
+            @media #{$media_sm} {
+                position: static;
+                @include transform(translateY(0));
+                padding-left: 0;
+            }
+
+            .title {
+                padding-top: 0;
+            }
+
+            .description {
+                padding-top: $space_lg;
+                margin-left: 34.2%;
+                max-width: 638px;
+
+                @media #{$media_sm} {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+    .description-2 {
+        max-width: 638px;
+        padding-top: $space_lg;
+        margin: 0 $space_xl 0 auto;
+
+        @media #{$media_sm} {
+            margin: 0 0 0 0;
+        }
+    }
+
+    .description-3 {
+        max-width: 638px;
+
+        @media #{$media_sm} {
+            padding-top: $space_lg;
+        }
+    }
+}
+
+/*=============================
+// Single portfolio
+=============================*/
+.single-portfolio, .single-adveits_portfolio {
+    #page-title {
+        .page-title-description {
+            .description {
+                margin-left: 46%;
+
+                @media #{$media_sm} {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

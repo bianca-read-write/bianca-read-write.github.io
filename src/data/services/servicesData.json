@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "assets/img/placeholder/500x253.jpg",
+        "title": "Wedding Photography"
+    },
+    {
+        "id": 2,
+        "imgSrc": "assets/img/placeholder/500x253.jpg",
+        "title": "Anniversary Photography"
+    },
+    {
+        "id": 3,
+        "imgSrc": "assets/img/placeholder/500x253.jpg",
+        "title": "Honeymoon Photography"
+    }
+]

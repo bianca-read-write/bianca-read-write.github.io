@@ -1,0 +1,487 @@
+//=================================================
+// Variables
+//=================================================
+
+//=============================
+// Media queries
+//=============================
+$retina:     "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
+$media_xxxl: "(min-width: 1920px)";
+$media_xxl:  "(max-width: 1700px)";
+$media_xl:   "(max-width: 1199px)";
+$media_lg:   "(max-width: 991px)";
+$media_md:   "(max-width: 767px)";
+$media_sm:   "(max-width: 575px)";
+
+//=============================
+// Paths
+//=============================
+$img:          "../img/";
+$fonts:        "../fonts/";
+$icons:        "../icons/";
+
+$fa-font-path: "../../fonts/FontAwesome";
+
+//=============================
+// Colors
+//=============================
+$white:                                               #ffffff;
+$blue:                                                #34486f;
+$indigo:                                              #5513c1;
+$purple:                                              #614691;
+$pink:                                                #ee85b5;
+$red:                                                 #be404c;
+$orange:                                              #df9659;
+$yellow:                                              #dfbb4e;
+$green:                                               #274035;
+$teal:                                                #5f8f81;
+$cyan:                                                #397782;
+
+$gray:                                                #979797;
+$gray-light:                                          #e0e0e0;
+$gray-dark:                                           #79766f;
+
+$light:                                               #f9f9f9;
+$dark:                                                #274035;
+
+// Body
+$body_text_primary_color:                             #706e67;
+$body_text_secondary_color:                           #274035;
+$body_text_tertiary_color:                            #ffffff; // For dark background
+$body_headline_color:                                 #274035;
+$body_links_color:                                    #274035;
+$body_links_hover_color:                              #8d9893;
+$body_background_color:                               #f3f2f1;
+
+$body_main_element_primary_color:                     #274035;
+$body_main_element_secondary_color:                   #000000;
+$body_border_color:                                   #e0e0e0;
+$body_mark_background:                                #fcf8e3;
+
+// Header
+$header_color:                                        #274035;
+$header_background_color:                             #f3f2f1;
+
+// Footer
+$footer_color:                                        #274035;
+$footer_background_color:                             #f3f2f1;
+
+// Breadcrumb
+$breadcrumb_color:                                    #274035;
+$breadcrumb_hover_color:                              #8d9893;
+$breadcrumb_active_color:                             #8d9893;
+$breadcrumb_divider_color:                            #274035;
+$breadcrumb_bg:                                       transparent;
+
+// Menu
+$menu_links_color:                                    #274035;
+$menu_links_hover_color:                              #8d9893;
+$menu_links_active_color:                             #8d9893;
+
+// Menu primary
+$menu_primary_links_color:                            #274035;
+$menu_primary_links_hover_color:                      #8d9893;
+$menu_primary_links_active_color:                     #8d9893;
+
+// Dropdown
+$dropdown_links_color:                                #274035;
+$dropdown_links_hover_color:                          #ffffff;
+$dropdown_links_active_color:                         #ffffff;
+$dropdown_links_background_color:                     #f3f2f1;
+$dropdown_links_hover_background_color:               #274035;
+$dropdown_links_active_background_color:              #274035;
+
+// Forms
+$input_text_color:                                    #79766f;
+$input_border_focus_color:                            #274035;
+$input_placeholder_color:                             #79766f;
+$label_color:                                         #274035;
+
+// Form primary
+$input_background_primary_color:                      transparent;
+$input_border_primary_color:                          #979797;
+
+// Form secondary
+$input_background_secondary_color:                    #f9f9f9;
+$input_border_secondary_color:                        transparent;
+
+// Masonry gallery
+$masonry_gallery_filter_button_color:                 #274035;
+$masonry_gallery_filter_button_hover_color:           #8d9893;
+$masonry_gallery_filter_button_active_color:          #274035;
+
+$masonry_gallery_item_background_color:               #f9f9f9;
+$masonry_gallery_item_title_color:                    #274035;
+$masonry_gallery_item_description_color:              #79766f;
+$masonry_gallery_item_btn_color:                      #274035;
+$masonry_gallery_item_btn_hover_color:                #8d9893;
+
+// Modals
+$modal_background_color:                              #f3f2f1;
+$modal_background_content_color:                      transparent;
+
+// Card
+$card_border_color:                                   transparent;
+$card_background_color:                               transparent;
+
+// Widget
+$widget_background_color:                             #f9f9f9;
+$widget_border_color:                                 transparent;
+$widget_headline_color:                               #274035;
+
+// Slider
+$slider_button_color:                                 #ffffff;
+$slider_button_background_color:                      rgba(0, 0, 0, 0.2);
+$slider_button_hover_color:                           #ffffff;
+$slider_button_hover_background_color:                rgba(0, 0, 0, 1);
+
+//=============================
+// Fonts
+//=============================
+$LATO:                                               'Lato-Regular', sans-serif;
+$LATO_b:                                             'Lato-Bold', sans-serif;
+$PLAYD:                                              'PlayfairDisplay-Regular', sans-serif;
+$PLAYD_b:                                            'PlayfairDisplay-Bold', sans-serif;
+
+$font_primary:                                        $LATO;
+$font_primary_bold:                                   $LATO_b;
+$font_secondary:                                      $PLAYD;
+$font_secondary_bold:                                 $PLAYD_b;
+
+$font_menu_primary:                                   $PLAYD_b;
+
+$f_size_sm:                                           0.684rem; // 13px
+$f_size_df:                                           0.789rem; // 15px
+$f_size_lg:                                           1rem;     // 19px
+
+//=============================
+// Spacing
+//=============================
+$space_xl:                                            7.368rem; // 140px
+$space_lg:                                            3.158rem; // 60px
+$space_md:                                            2.632rem; // 50px
+$space_sm:                                            1.579rem; // 30px
+$space_xs:                                            1.053rem; // 20px
+
+// For page content
+$space_pc_primary:                                    2.632rem; // 50px
+$space_pc_secondary:                                  1.579rem; // 30px
+
+//=============================
+// Header
+//=============================
+$header_padding_t:                                    2.5rem;
+$header_padding_b:                                    2.5rem;
+
+//=============================
+// Main
+//=============================
+$main_padding_t:                                      3.947rem;
+$main_padding_b:                                      4.211rem;
+
+//=============================
+// Footer
+//=============================
+$footer_padding_t:                                    3.158rem;
+$footer_padding_b:                                    3.158rem;
+
+//=============================
+// Wrapper
+//=============================
+$wrapper_max_w:                                       1700px;
+
+// Left
+$wrapper_p_l:                                         2.632rem;
+$wrapper_p_l_xxl:                                     2.632rem;
+$wrapper_p_l_xl:                                      1.59516rem;
+$wrapper_p_l_sm:                                      1.59516rem;
+
+// Right
+$wrapper_p_r:                                         2.632rem;
+$wrapper_p_r_xxl:                                     2.632rem;
+$wrapper_p_r_xl:                                      1.59516rem;
+$wrapper_p_r_sm:                                      1.59516rem;
+
+//=============================
+// Transition s
+//=============================
+$transition-s:                                        0.3s;
+
+//=============================
+// Components
+//=============================
+$border_radius:                                       0.25rem;
+$border_radius_sm:                                    0.3rem;
+$border_radius_lg:                                    0.2rem;
+
+$caret_vertical_align:                                middle;
+$caret_spacing:                                       0.263rem;
+
+$disabled_opacity:                                    0.5;
+
+//=============================
+// Typography
+//=============================
+$font_family_base:                                    $font_primary;
+
+$h1_font_size:                                        3.105rem; // 59px
+$h2_font_size:                                        2.474rem; // 47px
+$h3_font_size:                                        1.947rem; // 37px
+$h4_font_size:                                        1.579rem; // 30px
+$h5_font_size:                                        1.263rem; // 24px
+$h6_font_size:                                        1rem;     // 19px
+
+$line_height_base:                                    1;
+$body_color:                                          $body_text_primary_color;
+
+$hr_border_color:                                     $body_border_color;
+
+// Font margin bottom
+$h1_font_mb:                                          0.714rem;
+$h2_font_mb:                                          0.841rem;
+$h3_font_mb:                                          0.6619999999999999rem;
+$h4_font_mb:                                          0.782rem;
+$h5_font_mb:                                          0.625rem;
+$h6_font_mb:                                          0.49499999999999994rem;
+$p_font_mb:                                           0.49499999999999994rem;
+$li_font_mb:                                          0.49499999999999994rem;
+
+//=============================
+// Links
+//=============================
+$link_color:                                          $body_links_color;
+$link_hover_color:                                    $body_links_hover_color;
+$link_hover_decoration:                               none;
+
+//=============================
+// Buttons
+//=============================
+$btn_font_family:                                     $font_primary_bold;
+$btn_font_weight:                                     700;
+
+$btn_padding_y:                                       1.053rem;
+$btn_padding_x:                                       1.053rem;
+$btn_padding_y_sm:                                    0.5rem;
+$btn_padding_x_sm:                                    0.947rem;
+$btn_padding_y_lg:                                    1.552rem;
+$btn_padding_x_lg:                                    1.552rem;
+
+$btn_font_size:                                       $f_size_df;
+$btn_font_size_sm:                                    $f_size_sm;
+$btn_font_size_lg:                                    $f_size_lg;
+
+$btn_line_height:                                     1.23;
+$btn_line_height_sm:                                  1.23;
+$btn_line_height_lg:                                  1.23;
+
+$btn_border_radius:                                   0;
+$btn_border_radius_sm:                                0;
+$btn_border_radius_lg:                                0;
+
+$btn_focus_width:                                     0;
+
+$btn_transition:                                      color $transition-s ease-in-out, background-color $transition-s ease-in-out, border-color $transition-s ease-in-out, box-shadow $transition-s ease-in-out;
+
+//=============================
+// Badge
+//=============================
+$badge_border_radius:                                 0;
+
+//=============================
+// Modals
+//=============================
+$modal_inner_padding:                                 1.526rem 0;
+$modal_dialog_margin:                                 1.526rem;
+
+$modal_content_bg:                    	              $modal_background_content_color;
+$modal_content_border_color:                          transparent;
+$modal_content_border_width:                          0;
+$modal_content_border_radius:                         0;
+
+$modal_backdrop_bg:                  	              $modal_background_color;
+$modal_backdrop_opacity:              	              1;
+$modal_header_border_color:                           transparent;
+$modal_header_border_width:                           0;
+$modal_footer_border_color:                           transparent;
+$modal_footer_border_width:                           0;
+
+$modal_header_padding_y:                              $header_padding_t;
+$modal_header_padding_x:                              0;
+$modal_header_padding:                                $header_padding_t 0 $header_padding_b 0;
+
+//=============================
+// Alert
+//=============================
+$alert_padding_y:                                     0.75rem;
+$alert_padding_x:                                     0.75rem;
+$alert_margin_bottom:                                 $space_lg;
+$alert_border_radius:                                 0;
+
+//=============================
+// List group
+//=============================
+$list_group_bg:                                       $body_background_color;
+$list_group_border_color:                             $body_border_color;
+$list_group_border_radius:                            0;
+
+$list_group_item_padding-y:                           $space_xs;
+$list_group_item_padding-x:                           $space_sm;
+
+//=============================
+// Figures
+//=============================
+$figure_caption_font_size:                            $f_size_sm;
+$figure_caption_color:                                $body_text_primary_color;
+
+//=============================
+// Breadcrumbs
+//=============================
+$breadcrumb_font_size:                                $f_size_lg;
+
+$breadcrumb_padding_y:                                0;
+$breadcrumb_padding_x:                                0;
+$breadcrumb_item_padding:                             $space_xs / 2;
+
+$breadcrumb_margin_bottom:                            0;
+
+$breadcrumb_bg:                                       $breadcrumb_bg;
+$breadcrumb_divider_color:                            $breadcrumb_divider_color;
+$breadcrumb_active_color:                             $breadcrumb_active_color;
+$breadcrumb_divider:                                  quote('/');
+
+$breadcrumb_border_radius:                            0;
+
+//=============================
+// Close
+//=============================
+$close_color:                                         $body_links_color;
+
+//=============================
+// Forms
+//=============================
+$label_margin_bottom:                                 0;
+
+$input_padding_y:                                     1.158rem / 1.5;
+$input_padding_x:                                     1.579rem;
+$input_padding_y_sm:                                  1.158rem / 2.5;
+$input_padding_x_sm:                                  1.579rem;
+$input_padding_y_lg:                                  1.158rem;
+$input_padding_x_lg:                                  1.579rem;
+$input_font_size:                                     $f_size_df;
+$input_font_size_sm:                                  $f_size_sm;
+$input_font_size_lg:                                  $f_size_lg;
+$input_line_height:                                   1.31;
+$input_line_height_sm:                                1.31;
+$input_line_height_lg:                                1.31;
+
+$input_bg:                                            $input_background_secondary_color;
+
+$input_color:                                         $input_text_color;
+
+$input_border_color:                                  $input_border_secondary_color;
+$input_border_radius:                                 0;
+$input_border_radius_lg:                              0;
+$input_border_radius_sm:                              0;
+
+$input_focus_border_color:                            $input_border_focus_color;
+$input_focus_box_shadow:                              inherit;
+
+$input_height:                                        auto;
+$input_height_sm:                                     auto;
+$input_height_lg:                                     auto;
+
+$form_check_input_gutter:                             1.526rem;
+$form_check_input_margin_y:                           0;
+$form_check_input_margin_x:                           0.526rem;
+
+$form_group_margin_bottom:                            $space_sm;
+
+$input_group_addon_bg:                                $body_border_color;
+
+$custom_control_gutter:                               0.8rem;
+
+$custom_control_indicator_size:                       0.789rem;
+$custom_control_indicator_checked_bg:                 $body_main_element_primary_color;
+$custom_control_indicator_border_color:               $body_text_primary_color;
+
+$custom-control-indicator-active-bg:                  $body_main_element_primary_color;
+$custom-control-indicator-active-border-color:        $body_main_element_primary_color;
+
+$custom_checkbox_indicator_border_radius:             0;
+
+$custom_select_border_radius:                         0;
+$custom_select_focus_box_shadow:                      inherit;
+
+//=============================
+// Buttons + Forms
+//=============================
+$input_btn_focus_box_shadow:                          inherit;
+
+//=============================
+// Navs
+//=============================
+$nav_link_disabled_color:                             rgba($menu_links_color, $disabled_opacity);
+
+$nav_tabs_border_radius:                              0;
+$nav_tabs_link_active_color:                          $menu_links_active_color;
+
+$nav_pills_border_radius:                             0;
+
+//=============================
+// Dropdowns
+//=============================
+$dropdown_min_width:                                  12.105rem;
+$dropdown_padding_y:                                  0;
+$dropdown_spacer:                                     0;
+$dropdown_font_size:                                  0.789rem;
+$dropdown_color:                                      $dropdown_links_color;
+$dropdown_border_color:                               transparent;
+$dropdown_bg:                                         $dropdown_links_background_color;
+$dropdown_border_radius:                              0;
+$dropdown_border_width:                               0;
+$dropdown_divider_bg:                                 $body_border_color;
+$dropdown_divider_margin_y:                           0;
+
+$dropdown_link_color:                                 $dropdown_links_color;
+$dropdown_link_hover_color:                           $dropdown_links_hover_color;
+$dropdown_link_hover_bg:                              $dropdown_links_hover_background_color;
+
+$dropdown_link_active_color:                          $dropdown_links_active_color;
+$dropdown_link_active_bg:                             $dropdown_links_active_background_color;
+$dropdown_link_disabled_color:                        rgba($dropdown_links_color, $disabled_opacity);
+
+$dropdown_item_padding_y:                             0.789rem;
+$dropdown_item_padding_x:                             1.053rem;
+
+//=============================
+// Pagination
+//=============================
+$pagination_padding_x:                                0.953rem;
+$pagination_padding_y:                                0.632rem;
+
+$pagination_bg:                                       $body_background_color;
+$pagination_border_width:                             0;
+$pagination_border_color:                             transparent;
+
+$pagination_hover_border_color:                       transparent;
+
+$pagination_disabled_color:                           rgba($body_links_color, $disabled_opacity);
+$pagination_disabled_bg:                              transparent;
+$pagination_disabled_border_color:                    transparent;
+
+//=============================
+// Card
+//=============================
+$card_spacer_y:                                       $space_sm;
+$card_spacer_x:                                       $space_sm;
+$card_cap_bg:                                         $card_background_color;
+$card_bg:                                             $card_background_color;
+$card_border_color:                                   $card_border_color;
+$card_border_radius:                                  0;
+$card_inner_border_radius:                            0;
+$card_img_overlay_padding:                            $space_sm;
+
+//=============================
+// Table
+//=============================
+$table_caption_color:                                 $body_text_primary_color;
