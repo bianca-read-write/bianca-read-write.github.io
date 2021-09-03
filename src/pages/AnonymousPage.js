@@ -20,7 +20,7 @@ export const AnonymousPage = ({ onLogin }) => (
     </MetaTags>
 
     <main id="main" className="site-main">
-      <section id="page-title">
+      <section id="page-title" className="spacer p-top-xl">
         <div className="wrapper">
           <div className="title" style={{ textAlign: "center" }}>
             <h1 className="large">bianca & brian</h1>
@@ -28,7 +28,7 @@ export const AnonymousPage = ({ onLogin }) => (
         </div>
       </section>
 
-      <div id="page-content" className="spacer p-top-xl">
+      {/* <div id="page-content" className="spacer p-top-xl">
         <div className="wrapper">
           <div className="content">
             <div id="blog">
@@ -49,9 +49,9 @@ export const AnonymousPage = ({ onLogin }) => (
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      {/* <div id="page-content" className="spacer p-top-lg">
+      <div id="page-content" className="spacer p-top-lg">
         <div className="wrapper">
           <div className="content">
             <div className="clearfix">
@@ -59,7 +59,7 @@ export const AnonymousPage = ({ onLogin }) => (
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </main>
   </Fragment>
 );

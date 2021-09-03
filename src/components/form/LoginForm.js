@@ -22,6 +22,7 @@ export const LoginForm = (props) => {
       props.onSuccess && props.onSuccess(json);
     } catch (e) {
       props.onFailure && props.onFailure();
+      setLoading(false);
     }
     setLoading(false);
   };

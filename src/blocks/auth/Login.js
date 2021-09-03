@@ -4,6 +4,7 @@ import { Auth } from "../../api/auth";
 import { LoginForm } from "../../components/form/LoginForm";
 
 export const LoginComponent = (props) => {
+  const [isLoggedOut, setIsLoggedOut] = useState(!!localStorage.getItem('BB_LOGOUT'))
   const [login, setLogin] = useState(Auth.read());
   const [error, setError] = useState(false);
 
@@ -24,13 +25,10 @@ export const LoginComponent = (props) => {
   };
 
   const handleLoginFailure = () => {
-    setLogin({});
     setError(true);
   };
 
   if (login.valid && !login.stale) return null;
-
-  console.log(props.hasLoggedOut);
 
   return (
     <>
@@ -38,6 +36,11 @@ export const LoginComponent = (props) => {
         (login.stale && (
           <p className="text after login-text-after">
             You have been logged out due to inactivity. Please log back in.
+          </p>
+        )) ||
+        (isLoggedOut && (
+          <p className="text after login-text-after">
+            You have successfully logged out.
           </p>
         ))}
       <LoginForm

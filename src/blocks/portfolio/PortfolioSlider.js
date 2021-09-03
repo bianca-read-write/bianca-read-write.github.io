@@ -101,24 +101,31 @@ class PortfolioSlider extends Component {
   };
 
   render() {
-    console.log(this.props.selected);
     return (
       <div id="slider" className="block spacer p-top-xl">
         <div className="wrapper" style={{ maxWidth: "none" }}>
           <div className="adv-slider">
-            <div
-              className="adv-swiper-container"
-            >
+            <div className="adv-swiper-container">
               <div className="adv-swiper-wrapper">
                 {PortfolioSwiperData &&
                   PortfolioSwiperData.map((item, key) => {
                     return (
-                      <div key={key} className="adv-swiper-slide" style={{textAlign: 'center'}}>
-                          <div className="portfolio-image-div" style={{
-                              backgroundImage: `url(${item.imgSrc})`
-                          }}>
-
-                        <img src={item.imgSrc} alt={item.alt} style={{display: 'none'}} />
+                      <div
+                        key={key}
+                        className="adv-swiper-slide"
+                        style={{ textAlign: "center" }}
+                      >
+                        <div
+                          className="portfolio-image-div"
+                          style={{
+                            backgroundImage: `url(${item.imgSrc})`,
+                          }}
+                        >
+                          <img
+                            src={item.imgSrc}
+                            alt={item.alt}
+                            style={{ display: "none" }}
+                          />
                         </div>
                       </div>
                     );
