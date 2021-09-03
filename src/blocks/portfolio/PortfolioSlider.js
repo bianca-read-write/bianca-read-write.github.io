@@ -79,9 +79,15 @@ class PortfolioSlider extends Component {
   };
 
   swipeLeft = () => {
-    this.checkDisabled();
+    //this.checkDisabled();
+
+    console.log('selectedIndex')
+    console.log(this.state.selectedIndex)
+    console.log('len')
+    console.log(PortfolioSwiperData.length)
 
     if (this.state.selectedIndex > 0) {
+        console.log('moving')
       swiper.slideTo(this.state.selectedIndex - 1);
       this.setState({
         selectedIndex: this.state.selectedIndex - 1,
@@ -90,9 +96,15 @@ class PortfolioSlider extends Component {
   };
 
   swipeRight = () => {
-    this.checkDisabled();
+    //this.checkDisabled();
+
+    console.log('selectedIndex')
+    console.log(this.state.selectedIndex)
+    console.log('len')
+    console.log(PortfolioSwiperData.length)
 
     if (this.state.selectedIndex < PortfolioSwiperData.length - 1) {
+        console.log('moving')
       swiper.slideTo(this.state.selectedIndex + 1);
       this.setState({
         selectedIndex: this.state.selectedIndex + 1,
