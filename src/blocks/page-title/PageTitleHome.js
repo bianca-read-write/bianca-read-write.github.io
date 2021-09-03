@@ -11,11 +11,11 @@ const PageTitleHome = () => {
 
                     <div className="page-title-description">
                         <div className="title">
-                            <h1 className="large">Happy<br/>Anniversary.</h1>
+                            <h1 className="large">Celebrate<br/>Our wedding</h1>
                         </div>
 
                         <div className="description">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Join Bianca, Brian, and their families for a magical night in Brooklyn celebrating their marriage. Enjoy a sunset cocktail hour on the Brooklyn waterfront, a full mediterrnaean dinner, and dance the night away. Formal cocktail attire.</p>
                         </div>
                     </div>
                 </div>

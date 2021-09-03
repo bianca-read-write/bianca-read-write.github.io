@@ -520,6 +520,13 @@ select {
 }
 
 /*=============================
+// Login form
+=============================*/
+.login-form {
+    margin: auto
+}
+
+/*=============================
 // Contact form
 =============================*/
 .contact-form, .wpcf7-form {
@@ -567,3 +574,9 @@ select {
         margin-bottom: 0;
     }
 }
+
+// .form-control-login {
+//     font-size: 36px;
+//     font-weight: bold;
+//     text-align: center;
+// }

@@ -7,7 +7,7 @@ const HomeBlog = () => {
         <section id="blog" className="block spacer p-top-xl">
             <div className="wrapper">
                 <div className="title">
-                    <h2>Blog</h2>
+                    <h2>Get to know Brooklyn!</h2>
                 </div>
 
                 <div className="row gutter-width-md with-pb-md">
@@ -15,7 +15,7 @@ const HomeBlog = () => {
                         return (
                             <div  key={ key } className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                                 <div className="card card-post">
-                                    <div className="card-top position-relative">
+                                    {/* <div className="card-top position-relative">
                                         <a title={ item.title } href={ process.env.PUBLIC_URL + item.link }>
                                             <div className="img object-fit overflow-hidden">
                                                 <div className="object-fit-cover transform-scale-h">
@@ -24,17 +24,9 @@ const HomeBlog = () => {
                                             </div>
                                         </a>
                                     </div>
-                
+                 */}
                                     <div className="card-body">
-                                        <div className="card-meta">
-                                            <p>
-                                                <span><a href={ process.env.PUBLIC_URL + item.categoryLink }>{ item.author }</a></span>
-                                                <span> - </span>
-                                                <span>Comments ({ item.commentNum })</span>
-                                                <span> - </span>
-                                                <span><a href={ process.env.PUBLIC_URL + item.categoryLink }>{ item.category }</a></span>
-                                            </p>
-                                        </div>
+
                 
                                         <h5 className="card-title">
                                             <a title={ item.title } href={ process.env.PUBLIC_URL + item.link }>{ item.title }</a>

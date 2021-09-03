@@ -22,7 +22,7 @@
             outline: none;
             
             img, svg {
-                width: 100% !important;
+                // width: 100% !important;
                 height: 100% !important;
                 object-fit: cover;
                 -o-object-fit: cover;
@@ -93,4 +93,11 @@
     img {
         max-width: 100%;
     }
+}
+
+.portfolio-image-div {
+    height: calc(100vh - 200px);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }

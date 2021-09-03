@@ -70,38 +70,12 @@ class Gallery extends Component {
 
         return (
             <div className="gallery">
-                <ul className="gallery-filter">
-                    { this.state.list.map( ( item, key ) => (
-                        <React.Fragment key={ key }>
-                            <li>
-                                <a href="#portfolio"
-                                    title={ item.title }
-                                    className={ "btn btn-link text-uppercase click" + ( key === this.state.selected ? ' active' : '' ) }
-                                    data-filter={ item.filter }
-                                    onClick={ ( event ) => {
-                                        this.onFilterChange( item.filter );
-                                        this.handleClick( key, event )
-                                    } }>
-                                    { item.title }
-                                </a>
-                            </li>
-
-                            { key !== listCount ?
-                                <li>
-                                    <span className="btn btn-link text-uppercase">-</span>
-                                </li>
-                                : ""
-                            }
-                        </React.Fragment>
-                    ) ) }
-                </ul>
-
                 <div className="gallery-item-wrapper">
                     <div className="gallery-items" ref={ ( c ) => this.grid = c }>
                         { GalleryItemsData && GalleryItemsData.map( ( item, key ) => {
                             return (
                                 <div key={ key } className={ "gallery-item active " + item.category }>
-                                    <a title={ item.title } className="gallery-item-content" href={ process.env.PUBLIC_URL + item.link }>
+                                    <a title={ item.title } onClick={() => this.props.onExpandClick(item.id)}className="gallery-item-content" href="javascript:void(0);">
                                         <div className="img object-fit">
                                             <div className="object-fit-cover">
                                                 <img src={ item.imgSrc } alt={ item.title } />
@@ -109,23 +83,15 @@ class Gallery extends Component {
                                         </div>
             
                                         <div className="gallery-hover">
-                                            <h5 className="gallery-item-title">{ item.title }</h5>
+                                            <h5 className="gallery-item-title">Fun Fact</h5>
             
-                                            <p className="gallery-item-description">{ item.description }</p>
-            
-                                            <div className="gallery-item-btn no-space">
-                                                <span className="btn btn-link btn-line p-0 border-0 min-w-auto text-uppercase">More</span>
-                                            </div>
+                                            <p className="gallery-item-description">Bianca's highlight of the day is espresso!</p>
                                         </div>
                                     </a>
                                 </div>
                             );
                         } ) }
                     </div>
-                </div>
-
-                <div className="spacer m-top-lg text-center">
-                    <a title="See more" className="btn btn-outline-primary text-uppercase" href={ process.env.PUBLIC_URL + "/portfolio" }>See more</a>
                 </div>
             </div>
         );

@@ -613,3 +613,9 @@ body {
 //    background-repeat: no-repeat;
 //    background-position: center;
 //}
+
+@media #{$media_xl} {
+    .login-page-image-wrapper {
+        text-align: center;
+    }
+}

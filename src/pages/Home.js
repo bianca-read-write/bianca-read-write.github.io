@@ -11,7 +11,10 @@ import HomePortfolio from '../blocks/home/HomePortfolio';
 import ContactMe from '../blocks/home/ContactMe';
 import HomeBlog from '../blocks/home/HomeBlog';
 import ContactMe2 from '../blocks/contacts/ContactMe2';
+import PortfolioSlider from '../blocks/portfolio/PortfolioSlider';
+import PortfolioModal from '../components/modal/PortfolioModal'
 
+const AUTH_URL = 'https://us-central1-deep-chimera-324914.cloudfunctions.net/authorize'
 
 const Home = () => {
     document.body.classList.add( 'home' );
@@ -41,17 +44,7 @@ const Home = () => {
                     <div className="clearfix">
                         <PageTitleHome />
 
-                        <div id="services" className="block spacer p-top-xl">
-                            <div className="wrapper">
-                                <div className="title">
-                                    <h2>What I do?</h2>
-                                </div>
-
-                                <AboutServices />
-                            </div>
-                        </div>
-
-                        <HomePortfolio />
+                        <PortfolioModal />
 
                         <ContactMe />
                         

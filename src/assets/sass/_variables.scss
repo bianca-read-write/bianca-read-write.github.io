@@ -44,11 +44,13 @@ $gray-dark:                                           #79766f;
 $light:                                               #f9f9f9;
 $dark:                                                #274035;
 
+$metallic-seaweed:                                    #047887;
+
 // Body
 $body_text_primary_color:                             #706e67;
 $body_text_secondary_color:                           #274035;
 $body_text_tertiary_color:                            #ffffff; // For dark background
-$body_headline_color:                                 #274035;
+$body_headline_color:                                 $metallic-seaweed;
 $body_links_color:                                    #274035;
 $body_links_hover_color:                              #8d9893;
 $body_background_color:                               #f3f2f1;
@@ -142,11 +144,13 @@ $LATO:                                               'Lato-Regular', sans-serif;
 $LATO_b:                                             'Lato-Bold', sans-serif;
 $PLAYD:                                              'PlayfairDisplay-Regular', sans-serif;
 $PLAYD_b:                                            'PlayfairDisplay-Bold', sans-serif;
+$RECOLETA:                                           'Recoleta-Regular', sans-serif;
+$RECOLETA_b:                                         'Recoleta-Bold', sans-serif;
 
 $font_primary:                                        $LATO;
 $font_primary_bold:                                   $LATO_b;
 $font_secondary:                                      $PLAYD;
-$font_secondary_bold:                                 $PLAYD_b;
+$font_secondary_bold:                                 $RECOLETA_b;
 
 $font_menu_primary:                                   $PLAYD_b;
 

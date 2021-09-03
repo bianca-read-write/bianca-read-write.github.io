@@ -8,17 +8,17 @@ const ContactMe2 = () => {
             <div className="contact-me-img-and-title">
                 <div className="img object-fit">
                     <div className="object-fit-cover">
-                        <img src="assets/img/placeholder/1600x700.jpg" alt="Contacts" />
+                        <img src="assets/img/edwards/9Y7A3248.jpg" alt="Contacts" />
                     </div>
                 </div>
 
-                <h2 className="contact-me-title">Contact me</h2>
+                <h2 className="contact-me-title">RSVP</h2>
             </div>
 
             <div className="contact-me-content">
                 <div className="contact-me-content-2">
                     <div className="contact-me-description">
-                        <p>Fill up a form below.</p>
+                        <p>Please let us know if you plan to attend by March 1st, 2022</p>
                     </div>
 
                     <div className="contact-me-shortcode">

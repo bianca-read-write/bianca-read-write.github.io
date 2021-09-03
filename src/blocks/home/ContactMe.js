@@ -7,11 +7,11 @@ const ContactMe = () => {
                 <div className="row gutter-width-md with-pb-md">
                     <div className="col-sm-8 col-md-8 col-lg-7 col-xl-7 align-self-center">
                         <div className="title">
-                            <h2>You can sign up a time for Wedding photography today.</h2>
+                            <h2>Join us for a night of dinner, drinks, and dancing.</h2>
                         </div>
 
                         <div className="description max-width-1">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                            <p>Schedule for Saturday, August thae date. 6:00pm RT Ceremony (blah blah blah) 7:00pm ET Cocktail hour (blach blah blah) 8:000pm ET Dinner and Dancing (blah blah) Where Brooklun </p>
                         </div>
 
                         <div className="description max-width-1 spacer m-top-lg no-space">

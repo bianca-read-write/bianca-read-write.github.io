@@ -4,7 +4,7 @@
         "title": "Honeymoon photography",
         "category": "gallery-item-visible honeymoon",
         "link": "/portfolio-inside",
-        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "imgSrc": "assets/img/edwards/5D2A8388_1.jpg",
         "description": "Lorem ipsum dolor sit amet."
     },
     {
@@ -12,7 +12,7 @@
         "title": "Wedding flowers",
         "category": "gallery-item-visible wedding",
         "link": "/portfolio-inside",
-        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "imgSrc": "assets/img/edwards/5D2A8894.jpg",
         "description": "Lorem ipsum dolor sit amet."
     },
     {
@@ -20,55 +20,31 @@
         "title": "Wedding photography",
         "category": "gallery-item-visible anniversary",
         "link": "/portfolio-inside",
-        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "imgSrc": "assets/img/edwards/5D2A8506.jpg",
         "description": "Lorem ipsum dolor sit amet."
     },
     {
         "id": 4,
         "title": "Wedding photography",
-        "category": "gallery-item-visible wedding",
+        "category": "gallery-item-visible anniversary",
         "link": "/portfolio-inside",
-        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "imgSrc": "assets/img/edwards/5D2A9480.jpg",
         "description": "Lorem ipsum dolor sit amet."
     },
     {
         "id": 5,
-        "title": "Anniversary photography",
-        "category": "anniversary",
+        "title": "Wedding photography",
+        "category": "gallery-item-visible anniversary",
         "link": "/portfolio-inside",
-        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "imgSrc": "assets/img/edwards/5D2A9008.jpg",
         "description": "Lorem ipsum dolor sit amet."
     },
     {
         "id": 6,
-        "title": "Honeymoon photography",
-        "category": "honeymoon anniversary",
-        "link": "/portfolio-inside",
-        "imgSrc": "assets/img/placeholder/500x700.jpg",
-        "description": "Lorem ipsum dolor sit amet."
-    },
-    {
-        "id": 7,
         "title": "Wedding photography",
-        "category": "wedding anniversary",
+        "category": "gallery-item-visible anniversary",
         "link": "/portfolio-inside",
-        "imgSrc": "assets/img/placeholder/500x700.jpg",
-        "description": "Lorem ipsum dolor sit amet."
-    },
-    {
-        "id": 8,
-        "title": "Wedding cake",
-        "category": "wedding",
-        "link": "/portfolio-inside",
-        "imgSrc": "assets/img/placeholder/500x700.jpg",
-        "description": "Lorem ipsum dolor sit amet."
-    },
-    {
-        "id": 9,
-        "title": "Wedding decorations",
-        "category": "wedding",
-        "link": "/portfolio-inside",
-        "imgSrc": "assets/img/placeholder/500x700.jpg",
+        "imgSrc": "assets/img/edwards/5D2A9646.jpg",
         "description": "Lorem ipsum dolor sit amet."
     }
 ]
