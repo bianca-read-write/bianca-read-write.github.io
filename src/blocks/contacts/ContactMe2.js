@@ -7,17 +7,15 @@ const RSPVTrigger = styled.div`
   width: 100%;
   text-align: center;
   margin: 20px;
-  transition: all 0.3s ease;
   border: 1px solid rgb(39, 64, 53);
   padding: 20px;
 
   &:hover {
-    background-color: rgba(247, 246, 245);
-    transform: scale(1.025);
     cursor: pointer;
 
     h1.large {
-        color: #8d9893 !important;
+      color: #8d9893 !important;
+      transform: scale(1.08);
     }
   }
 
@@ -175,7 +173,7 @@ const ContactMe2 = () => {
 
           <div className="contact-me-shortcode">
             <div className="rsvp-form-wrapper">
-              {(showForm && (
+              {(showForm && (numGuests === 1 || numGuests === 2) && (
                 <iframe
                   id="JotFormIFrame-212524314387049"
                   title="Form"
@@ -186,9 +184,9 @@ const ContactMe2 = () => {
                   style={{
                     height:
                       numGuests === 1
-                        ? "423px"
+                        ? "373px"
                         : numGuests === 2
-                        ? "801px"
+                        ? "751px"
                         : "0px",
                   }}
                 >
@@ -200,8 +198,6 @@ const ContactMe2 = () => {
                 </RSPVTrigger>
               )}
             </div>
-
-            {/* <ContactForm /> */}
           </div>
         </div>
       </div>

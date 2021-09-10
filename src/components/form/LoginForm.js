@@ -58,7 +58,7 @@ export const LoginForm = (props) => {
             type="submit"
             className="btn btn-outline-primary text-uppercase"
             style={{ minHeight: "70px", marginTop: "1rem" }}
-            disabled={loading || disallowSubmit}
+            disabled={loading || disallowSubmit || !code}
           >
             Submit
           </button>
