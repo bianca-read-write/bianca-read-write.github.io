@@ -66,8 +66,6 @@ class Gallery extends Component {
     };
 
     render() {
-        const listCount = this.state.list.length - 1;
-
         return (
             <div className="gallery">
                 <div className="gallery-item-wrapper">
@@ -75,7 +73,7 @@ class Gallery extends Component {
                         { GalleryItemsData && GalleryItemsData.map( ( item, key ) => {
                             return (
                                 <div key={ key } className={ "gallery-item active " + item.category }>
-                                    <a title={ item.title } onClick={() => this.props.onExpandClick(item.id)}className="gallery-item-content" href="javascript:void(0);">
+                                    <a title={ item.title } onClick={() => this.props.onExpandClick(item.id)}className="gallery-item-content" href="/#">
                                         <div className="img object-fit">
                                             <div className="object-fit-cover">
                                                 <img src={ item.imgSrc } alt={ item.title } />

@@ -6,15 +6,10 @@ import Header from '../blocks/header/Header';
 import Footer from '../blocks/footer/Footer';
 
 import PageTitleHome from '../blocks/page-title/PageTitleHome';
-import AboutServices from '../blocks/about/AboutServices';
-import HomePortfolio from '../blocks/home/HomePortfolio';
 import ContactMe from '../blocks/home/ContactMe';
 import HomeBlog from '../blocks/home/HomeBlog';
 import ContactMe2 from '../blocks/contacts/ContactMe2';
-import PortfolioSlider from '../blocks/portfolio/PortfolioSlider';
 import PortfolioModal from '../components/modal/PortfolioModal'
-
-const AUTH_URL = 'https://us-central1-deep-chimera-324914.cloudfunctions.net/authorize'
 
 const Home = () => {
     document.body.classList.add( 'home' );

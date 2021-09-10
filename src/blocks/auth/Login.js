@@ -12,7 +12,7 @@ export const LoginComponent = (props) => {
     if (!login.stale) {
       props.onLogin && props.onLogin(login);
     }
-  }, [login]);
+  }, [login, props]);
 
   const handleLoginSuccess = (user) => {
     const newProps = {
@@ -22,6 +22,7 @@ export const LoginComponent = (props) => {
     login.write(newProps);
     setLogin(newProps);
     setError(false);
+    setIsLoggedOut(false);
   };
 
   const handleLoginFailure = () => {
@@ -32,7 +33,7 @@ export const LoginComponent = (props) => {
 
   return (
     <>
-      {(error && <p className="text after login-text-after">Code invalid</p>) ||
+      {(error && <p className="text after login-text-after">The code you entered is invalid. Please try again.</p>) ||
         (login.stale && (
           <p className="text after login-text-after">
             You have been logged out due to inactivity. Please log back in.
@@ -40,7 +41,7 @@ export const LoginComponent = (props) => {
         )) ||
         (isLoggedOut && (
           <p className="text after login-text-after">
-            You have successfully logged out.
+            You have successfully been logged out.
           </p>
         ))}
       <LoginForm

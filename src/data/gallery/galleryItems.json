@@ -22,29 +22,5 @@
         "link": "/portfolio-inside",
         "imgSrc": "assets/img/edwards/5D2A8506.jpg",
         "description": "Lorem ipsum dolor sit amet."
-    },
-    {
-        "id": 4,
-        "title": "Wedding photography",
-        "category": "gallery-item-visible anniversary",
-        "link": "/portfolio-inside",
-        "imgSrc": "assets/img/edwards/5D2A9480.jpg",
-        "description": "Lorem ipsum dolor sit amet."
-    },
-    {
-        "id": 5,
-        "title": "Wedding photography",
-        "category": "gallery-item-visible anniversary",
-        "link": "/portfolio-inside",
-        "imgSrc": "assets/img/edwards/5D2A9008.jpg",
-        "description": "Lorem ipsum dolor sit amet."
-    },
-    {
-        "id": 6,
-        "title": "Wedding photography",
-        "category": "gallery-item-visible anniversary",
-        "link": "/portfolio-inside",
-        "imgSrc": "assets/img/edwards/5D2A9646.jpg",
-        "description": "Lorem ipsum dolor sit amet."
     }
 ]

@@ -3,12 +3,14 @@ import React, { useState } from "react";
 export const LoginForm = (props) => {
   const [code, setCode] = useState("");
   const [loading, setLoading] = useState(false);
+  const [disallowSubmit, setDisallowSubmit] = useState(false);
 
   const handleInputChange = (e) => setCode(e.target.value);
 
   const onSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
+    setDisallowSubmit(true);
     try {
       const res = await fetch(
         "https://us-central1-deep-chimera-324914.cloudfunctions.net/authorize",
@@ -22,9 +24,12 @@ export const LoginForm = (props) => {
       props.onSuccess && props.onSuccess(json);
     } catch (e) {
       props.onFailure && props.onFailure();
-      setLoading(false);
     }
+
     setLoading(false);
+    setTimeout(() => {
+      setDisallowSubmit(false);
+    }, 1000);
   };
 
   return (
@@ -38,7 +43,7 @@ export const LoginForm = (props) => {
           Access code
         </label>
         <input
-          autocomplete="off"
+          autoComplete="off"
           name="code"
           className="form-control form-control-lg"
           id="cf-1-code"
@@ -53,7 +58,7 @@ export const LoginForm = (props) => {
             type="submit"
             className="btn btn-outline-primary text-uppercase"
             style={{ minHeight: "70px", marginTop: "1rem" }}
-            disabled={loading}
+            disabled={loading || disallowSubmit}
           >
             Submit
           </button>

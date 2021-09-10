@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 
-import SearchModal from "./SearchModal";
 import HomePortfolio from '../../blocks/home/HomePortfolio';
 import PortfolioSlider from '../../blocks/portfolio/PortfolioSlider';
 
-import ModalMenuPrimary from "../../blocks/menu/MenuModalPrimary";
 
 class MenuModal extends Component {
   constructor(context) {
