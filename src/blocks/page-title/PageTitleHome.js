@@ -6,7 +6,7 @@ const PageTitleHome = () => {
             <div className="wrapper">
                 <div className="page-title-content">
                     <div className="page-title-img">
-                        <img src="assets/img/demo/03_img.png" alt="Happy Anniversary" />
+                        <img src="assets/img/demo/bridge.png" alt="Happy Anniversary" />
                     </div>
 
                     <div className="page-title-description">
