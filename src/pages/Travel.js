@@ -38,7 +38,12 @@ const Travel = () => {
       <main id="main" className="site-main">
         <PageTitleTravel />
 
-        <div id="about-img" className="block spacer p-top-lg">
+
+        <div id="page-content">
+          <div className="wrapper">
+            <div className="content">
+              <div className="clearfix">
+              <div id="about-img" className="block spacer p-top-lg">
                   <div className="about-img">
                     <iframe
                       title="Celestine Map"
@@ -51,11 +56,6 @@ const Travel = () => {
                     ></iframe>{" "}
                   </div>
                 </div>
-
-        <div id="page-content">
-          <div className="wrapper">
-            <div className="content">
-              <div className="clearfix">
                 <TravelContent />
               </div>
             </div>

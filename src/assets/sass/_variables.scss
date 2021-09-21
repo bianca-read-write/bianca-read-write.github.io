@@ -33,90 +33,90 @@ $pink:                                                #ee85b5;
 $red:                                                 #be404c;
 $orange:                                              #df9659;
 $yellow:                                              #dfbb4e;
-$green:                                               #274035;
+$green:                                               #333333;
 $teal:                                                #5f8f81;
 $cyan:                                                #397782;
 
 $gray:                                                #979797;
 $gray-light:                                          #e0e0e0;
-$gray-dark:                                           #79766f;
+$gray-dark:                                           #000;
 
-$light:                                               #f9f9f9;
-$dark:                                                #274035;
+$light:                                               #fbfcfb;
+$dark:                                                #333333;
 
 $metallic-seaweed:                                    #047887;
 
 // Body
-$body_text_primary_color:                             #706e67;
-$body_text_secondary_color:                           #274035;
+$body_text_primary_color:                             #000;
+$body_text_secondary_color:                           #333333;
 $body_text_tertiary_color:                            #ffffff; // For dark background
 $body_headline_color:                                 $metallic-seaweed;
-$body_links_color:                                    #274035;
-$body_links_hover_color:                              #8d9893;
+$body_links_color:                                    #333333;
+$body_links_hover_color:                              #34503d;
 $body_background_color:                               #fff;
 
-$body_main_element_primary_color:                     #274035;
+$body_main_element_primary_color:                     #333333;
 $body_main_element_secondary_color:                   #000000;
 $body_border_color:                                   #e0e0e0;
 $body_mark_background:                                #fcf8e3;
 
 // Header
-$header_color:                                        #274035;
+$header_color:                                        #333333;
 $header_background_color:                             #fff;
 
 // Footer
-$footer_color:                                        #274035;
+$footer_color:                                        #333333;
 $footer_background_color:                             #fff;
 
 // Breadcrumb
-$breadcrumb_color:                                    #274035;
-$breadcrumb_hover_color:                              #8d9893;
-$breadcrumb_active_color:                             #8d9893;
-$breadcrumb_divider_color:                            #274035;
+$breadcrumb_color:                                    #333333;
+$breadcrumb_hover_color:                              #34503d;
+$breadcrumb_active_color:                             #34503d;
+$breadcrumb_divider_color:                            #333333;
 $breadcrumb_bg:                                       transparent;
 
 // Menu
-$menu_links_color:                                    #274035;
-$menu_links_hover_color:                              #8d9893;
-$menu_links_active_color:                             #8d9893;
+$menu_links_color:                                    #333333;
+$menu_links_hover_color:                              #34503d;
+$menu_links_active_color:                             #34503d;
 
 // Menu primary
-$menu_primary_links_color:                            #274035;
-$menu_primary_links_hover_color:                      #8d9893;
-$menu_primary_links_active_color:                     #8d9893;
+$menu_primary_links_color:                            #333333;
+$menu_primary_links_hover_color:                      #34503d;
+$menu_primary_links_active_color:                     #34503d;
 
 // Dropdown
-$dropdown_links_color:                                #274035;
+$dropdown_links_color:                                #333333;
 $dropdown_links_hover_color:                          #ffffff;
 $dropdown_links_active_color:                         #ffffff;
 $dropdown_links_background_color:                     #fff;
-$dropdown_links_hover_background_color:               #274035;
-$dropdown_links_active_background_color:              #274035;
+$dropdown_links_hover_background_color:               #333333;
+$dropdown_links_active_background_color:              #333333;
 
 // Forms
-$input_text_color:                                    #79766f;
-$input_border_focus_color:                            #274035;
-$input_placeholder_color:                             #79766f;
-$label_color:                                         #274035;
+$input_text_color:                                    #000;
+$input_border_focus_color:                            #333333;
+$input_placeholder_color:                             rgba(0,0,0,.5);
+$label_color:                                         #333333;
 
 // Form primary
 $input_background_primary_color:                      transparent;
 $input_border_primary_color:                          #979797;
 
 // Form secondary
-$input_background_secondary_color:                    #f9f9f9;
+$input_background_secondary_color:                    #fbfcfb;
 $input_border_secondary_color:                        transparent;
 
 // Masonry gallery
-$masonry_gallery_filter_button_color:                 #274035;
-$masonry_gallery_filter_button_hover_color:           #8d9893;
-$masonry_gallery_filter_button_active_color:          #274035;
+$masonry_gallery_filter_button_color:                 #333333;
+$masonry_gallery_filter_button_hover_color:           #34503d;
+$masonry_gallery_filter_button_active_color:          #333333;
 
-$masonry_gallery_item_background_color:               #f9f9f9;
-$masonry_gallery_item_title_color:                    #274035;
-$masonry_gallery_item_description_color:              #79766f;
-$masonry_gallery_item_btn_color:                      #274035;
-$masonry_gallery_item_btn_hover_color:                #8d9893;
+$masonry_gallery_item_background_color:               #fbfcfb;
+$masonry_gallery_item_title_color:                    #333333;
+$masonry_gallery_item_description_color:              #000;
+$masonry_gallery_item_btn_color:                      #333333;
+$masonry_gallery_item_btn_hover_color:                #34503d;
 
 // Modals
 $modal_background_color:                              #fff;
@@ -127,9 +127,9 @@ $card_border_color:                                   transparent;
 $card_background_color:                               transparent;
 
 // Widget
-$widget_background_color:                             #f9f9f9;
+$widget_background_color:                             #fbfcfb;
 $widget_border_color:                                 transparent;
-$widget_headline_color:                               #274035;
+$widget_headline_color:                               #333333;
 
 // Slider
 $slider_button_color:                                 #ffffff;
@@ -149,10 +149,10 @@ $RECOLETA_b:                                         'Recoleta-Bold', sans-serif
 
 $font_primary:                                        $LATO;
 $font_primary_bold:                                   $LATO_b;
-$font_secondary:                                      $PLAYD;
+$font_secondary:                                      $LATO;
 $font_secondary_bold:                                 $RECOLETA_b;
 
-$font_menu_primary:                                   $PLAYD_b;
+$font_menu_primary:                                   $RECOLETA_b;
 
 $f_size_sm:                                           0.684rem; // 13px
 $f_size_df:                                           0.789rem; // 15px
