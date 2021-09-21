@@ -15,7 +15,7 @@ const About = () => {
     <Fragment>
       <MetaTags>
         <meta charSet="UTF-8" />
-        <title>The Event | bianca & brian</title>
+        <title>Event | bianca & brian</title>
 
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -154,7 +154,7 @@ const Portfolio = () => {
       <main id="main" className="site-main">
         <PageTitlePortfolio />
 
-        <div id="page-content" className="spacer p-top-xl">
+        <div id="page-content" className="spacer p-top-md">
           <div className="wrapper">
             <iframe
               title="rsvp"
@@ -163,8 +163,8 @@ const Portfolio = () => {
               frameBorder="0"
               scrolling="no"
               style={{
-                height:
-                  numGuests === 1 ? "437px" : numGuests === 2 ? "851px" : "0px",
+                height: "900px",
+                ...([1, 2].includes(numGuests) ? {} : { display: "none" }),
               }}
             >
               {" "}
