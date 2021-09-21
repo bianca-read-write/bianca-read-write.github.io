@@ -22,8 +22,18 @@ export const LoginForm = (props) => {
       );
       const json = await res.json();
       props.onSuccess && props.onSuccess(json);
+      if (window.location.hostname !== "localhost" && window.gtag) {
+        window.gtag("event", "login-success", {
+          code: code,
+        });
+      }
     } catch (e) {
       props.onFailure && props.onFailure();
+      if (window.location.hostname !== "localhost" && window.gtag) {
+        window.gtag("event", "login-failure", {
+          code: code,
+        });
+      }
     }
 
     setLoading(false);

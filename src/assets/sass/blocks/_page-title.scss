@@ -54,7 +54,8 @@
     .description-2 {
         max-width: 638px;
         padding-top: $space_lg;
-        margin: 0 $space_xl 0 auto;
+        margin: 0 auto;
+        text-align: center;
 
         @media #{$media_sm} {
             margin: 0 0 0 0;

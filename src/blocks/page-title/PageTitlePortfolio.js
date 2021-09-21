@@ -5,11 +5,11 @@ const PageTitlePortfolio = () => {
         <section id="page-title">
             <div className="wrapper">
                 <div className="title">
-                    <h1 className="large">Portfolio.</h1>
+                    <h1 className="large">RSVP</h1>
                 </div>
 
                 <div className="description-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <p>Please let us know if you plan to attend by March 1st, 2022</p>
                 </div>
             </div>
         </section>

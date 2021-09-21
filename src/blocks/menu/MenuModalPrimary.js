@@ -9,12 +9,12 @@ const ModalMenuPrimary = ( props ) => {
                     <a title="Home" href={ process.env.PUBLIC_URL + "/" }>Home</a>
                 </li>
 
-                <li className={ "nav-item " + ( window.location.pathname.includes( "/about" ) ? "current-nav-item" : "" ) }>
-                    <a title="About" href={ process.env.PUBLIC_URL + "/about" }>About</a>
+                <li className={ "nav-item " + ( window.location.pathname.includes( "/event" ) ? "current-nav-item" : "" ) }>
+                    <a title="The Event" href={ process.env.PUBLIC_URL + "/event" }>The Event</a>
                 </li>
 
-                <li className={ "nav-item " + ( window.location.pathname.includes( "/portfolio" ) ? "current-nav-item" : "" ) }>
-                    <a title="Portfolio" href={ process.env.PUBLIC_URL + "/portfolio" }>Portfolio</a>
+                <li className={ "nav-item " + ( window.location.pathname.includes( "/rsvp" ) ? "current-nav-item" : "" ) }>
+                    <a title="RSVP" href={ process.env.PUBLIC_URL + "/rsvp" }>RSVP</a>
                 </li>
 
                 <li className={ "nav-item " + ( window.location.pathname.includes( "/blog" ) ? "current-nav-item" : "" ) }>

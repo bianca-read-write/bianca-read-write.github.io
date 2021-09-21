@@ -13,3 +13,18 @@
 		}
 	}
 }
+
+@media #{$media_sm} {
+	.align-right {
+		text-align: center !important;
+		padding-bottom: 10px !important;
+	}
+
+	.sm-align-center {
+		text-align: center !important;
+	}
+}
+
+.align-right {
+	text-align: right;
+}

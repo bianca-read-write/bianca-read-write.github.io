@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 
-import SearchModal from "./SearchModal";
-
 import ModalMenuPrimary from "../../blocks/menu/MenuModalPrimary";
 
 class MenuModal extends Component {
@@ -94,7 +92,7 @@ class MenuModal extends Component {
                     Logout
                   </button>
                 </div>
-                <SearchModal />
+
               </div>
             </div>
           </Modal.Body>

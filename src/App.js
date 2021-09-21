@@ -59,12 +59,7 @@ function App() {
               />
               <Route
                 exact
-                path={`${process.env.PUBLIC_URL + "/about"}`}
-                component={About}
-              />
-              <Route
-                exact
-                path={`${process.env.PUBLIC_URL + "/about"}`}
+                path={`${process.env.PUBLIC_URL + "/event"}`}
                 component={About}
               />
               <Route
@@ -89,7 +84,7 @@ function App() {
               />
               <Route
                 exact
-                path={`${process.env.PUBLIC_URL + "/portfolio"}`}
+                path={`${process.env.PUBLIC_URL + "/rsvp"}`}
                 component={Portfolio}
               />
               <Route

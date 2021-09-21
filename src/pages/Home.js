@@ -43,7 +43,7 @@ const Home = () => {
 
                         <ContactMe />
                         
-                        <HomeBlog />
+                        {/* <HomeBlog /> */}
 
                         <section id="contact-me-2" className="block spacer p-top-xl">
                             <div className="wrapper">

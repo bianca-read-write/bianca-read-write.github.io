@@ -17,13 +17,11 @@
 		}
 
 		.contact-me-title {
-			color: $body_text_tertiary_color;
 			position: absolute;
 			top: 50%;
 			left: 50%;
 			@include transform(translate(-50%, -50%));
 			text-align: center;
-			width: 100%;
 		}
 	}
 
