@@ -15,14 +15,14 @@ const About = () => {
     <Fragment>
       <MetaTags>
         <meta charSet="UTF-8" />
-        <title>About | Loversy - Wedding Photography React JS Template</title>
+        <title>The Event | bianca & brian</title>
 
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
-        <meta name="robots" content="index, follow, noodp" />
-        <meta name="googlebot" content="index, follow" />
+        <meta name="robots" content="noindex, nofollow" />
+        <meta name="googlebot" content="noindex, nofollow" />
         <meta name="google" content="notranslate" />
         <meta name="format-detection" content="telephone=no" />
       </MetaTags>
@@ -75,10 +75,12 @@ const About = () => {
 
                         <div className="contacts-item-content">
                           <h3 className="contacts-item-title after">Where</h3>
-                          <p className="contacts-item-description"><a href="https://goo.gl/maps/VmPPDJDCUp7AqDVZ8">
-                            Celestine
-                            <br />1 John St, Brooklyn, NY 11201
-                          </a></p>
+                          <p className="contacts-item-description">
+                            <a href="https://goo.gl/maps/VmPPDJDCUp7AqDVZ8">
+                              Celestine
+                              <br />1 John St, Brooklyn, NY 11201
+                            </a>
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -92,7 +94,9 @@ const About = () => {
                         </div>
 
                         <div className="contacts-item-content">
-                          <h3 className="contacts-item-title after">Dress</h3>
+                          <h3 className="contacts-item-title after">
+                            What to wear
+                          </h3>
                           <p className="contacts-item-description">
                             Formal cocktail attire
                             <br />
@@ -105,21 +109,6 @@ const About = () => {
                 </div>
 
                 <AboutContent />
-
-                <div id="about-img" className="block spacer p-top-lg">
-                  <div className="about-img">
-                    <iframe
-                      title="Celestine Map"
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12098.426283248018!2d-73.99672423206884!3d40.70466167933276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a323080c221%3A0x55426c89c4a6a6a3!2sCelestine!5e0!3m2!1sen!2sus!4v1632185265422!5m2!1sen!2sus"
-                      width="600"
-                      height="450"
-                      style={{ border: 0 }}
-                      allowFullScreen=""
-                      loading="lazy"
-                    ></iframe>{" "}
-                  </div>
-                </div>
-
               </div>
             </div>
           </div>

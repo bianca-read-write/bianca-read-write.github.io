@@ -12,6 +12,7 @@ import PortfolioInside from "./pages/PortfolioInside";
 import page404 from "./pages/404";
 import UserInterface from "./pages/UserInterface";
 import AnonymousPage from "./pages/AnonymousPage";
+import TravelPage from "./pages/Travel";
 import { Auth } from "./api/auth";
 import UserContext from "./contexts/UserContext";
 
@@ -64,8 +65,8 @@ function App() {
               />
               <Route
                 exact
-                path={`${process.env.PUBLIC_URL + "/contacts"}`}
-                component={Contacts}
+                path={`${process.env.PUBLIC_URL + "/travel"}`}
+                component={TravelPage}
               />
               <Route
                 exact

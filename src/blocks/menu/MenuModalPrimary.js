@@ -9,20 +9,20 @@ const ModalMenuPrimary = ( props ) => {
                     <a title="Home" href={ process.env.PUBLIC_URL + "/" }>Home</a>
                 </li>
 
-                <li className={ "nav-item " + ( window.location.pathname.includes( "/event" ) ? "current-nav-item" : "" ) }>
-                    <a title="The Event" href={ process.env.PUBLIC_URL + "/event" }>The Event</a>
-                </li>
-
                 <li className={ "nav-item " + ( window.location.pathname.includes( "/rsvp" ) ? "current-nav-item" : "" ) }>
                     <a title="RSVP" href={ process.env.PUBLIC_URL + "/rsvp" }>RSVP</a>
                 </li>
 
-                <li className={ "nav-item " + ( window.location.pathname.includes( "/blog" ) ? "current-nav-item" : "" ) }>
-                    <a title="Blog" href={ process.env.PUBLIC_URL + "/blog" }>Blog</a>
+                <li className={ "nav-item " + ( window.location.pathname.includes( "/event" ) ? "current-nav-item" : "" ) }>
+                    <a title="The Event" href={ process.env.PUBLIC_URL + "/event" }>The Event</a>
                 </li>
 
-                <li className={ "nav-item " + ( window.location.pathname.includes( "/contacts" ) ? "current-nav-item" : "" ) }>
-                    <a title="Contacts" href={ process.env.PUBLIC_URL + "/contacts" }>Contacts</a>
+                <li className={ "nav-item " + ( window.location.pathname.includes( "/travel" ) ? "current-nav-item" : "" ) }>
+                    <a title="Travel" href={ process.env.PUBLIC_URL + "/travel" }>Travel</a>
+                </li>
+
+                <li className={ "nav-item " + ( window.location.pathname.includes( "/gifts" ) ? "current-nav-item" : "" ) }>
+                    <a title="Gifts" href={ process.env.PUBLIC_URL + "/gifts" }>Gifts</a>
                 </li>
             </ul>
         </nav>

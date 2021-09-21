@@ -53,6 +53,7 @@ export const LoginForm = (props) => {
           Access code
         </label>
         <input
+          type="password"
           autoComplete="off"
           name="code"
           className="form-control form-control-lg"

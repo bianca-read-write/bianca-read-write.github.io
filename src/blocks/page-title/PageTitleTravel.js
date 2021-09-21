@@ -5,11 +5,7 @@ const PageTitleAbout = () => {
         <section id="page-title">
             <div className="wrapper">
                 <div className="title">
-                    <h1 className="large">The Event</h1>
-                </div>
-
-                <div className="description-2">
-                    <p>Optional event description</p>
+                    <h1 className="large">Travel</h1>
                 </div>
             </div>
         </section>

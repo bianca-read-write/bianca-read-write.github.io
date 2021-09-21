@@ -80,11 +80,11 @@ class Gallery extends Component {
                                             </div>
                                         </div>
             
-                                        <div className="gallery-hover">
+                                        {/* <div className="gallery-hover">
                                             <h5 className="gallery-item-title">Fun Fact</h5>
             
                                             <p className="gallery-item-description">Bianca's highlight of the day is espresso!</p>
-                                        </div>
+                                        </div> */}
                                     </a>
                                 </div>
                             );
