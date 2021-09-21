@@ -113,7 +113,7 @@
                     &.recentcomments {
                         font-family: $font_secondary_bold;
                         color: $body_headline_color;
-                        border-bottom: 1px solid #f3f2f1;
+                        border-bottom: 1px solid #fff;
                         margin-bottom: $space_sm !important;
                         padding-bottom: $space_sm;
                         font-size: 0.842rem;
@@ -350,7 +350,7 @@
                 @extend .list-unstyled;
 
                 li {
-                    border-bottom: 1px solid #f3f2f1;
+                    border-bottom: 1px solid #fff;
                     margin-bottom: $space_sm - 0.346rem !important;
                     padding-bottom: $space_sm;
 

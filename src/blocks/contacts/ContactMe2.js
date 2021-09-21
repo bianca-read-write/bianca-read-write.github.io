@@ -7,7 +7,11 @@ const RSPVTrigger = styled.div`
   text-align: center;
   margin: 0;
   padding: 35px 70px;
-  background: rgba(243, 242, 241, 0.7);
+  background: rgba(255, 255, 255, 0.75);
+
+  button {
+    background: #fff;
+  }
 `;
 
 const ContactMe2 = () => {
