@@ -4,6 +4,7 @@ import MetaTags from "react-meta-tags";
 import Loading from "../blocks/loading/Loading";
 import Header from "../blocks/header/Header";
 import Footer from "../blocks/footer/Footer";
+import ContactMe2 from "../blocks/contacts/ContactMe2";
 import UserContext from "../contexts/UserContext";
 
 import PageTitlePortfolio from "../blocks/page-title/PageTitlePortfolio";
@@ -156,19 +157,50 @@ const Portfolio = () => {
 
         <div id="page-content" className="spacer p-top-md">
           <div className="wrapper">
-            <iframe
-              title="rsvp"
-              id="JotFormIFrame-212524314387049"
-              src={`https://form.jotform.com/212524314387049?numguests13=${numGuests}&username=${name}&code=${code}`}
-              frameBorder="0"
-              scrolling="no"
-              style={{
-                height: "900px",
-                ...([1, 2].includes(numGuests) ? {} : { display: "none" }),
-              }}
-            >
-              {" "}
-            </iframe>
+            <div className="contact-me">
+              <div className="contact-me-img-and-title">
+                <div className="img object-fit">
+                  <div className="object-fit-cover">
+                    <img
+                      src="assets/img/edwards/9Y7A3248.jpg"
+                      alt="Contacts"
+                      style={{ width: "100%" }}
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div className="contact-me-content">
+                <div className="contact-me-content-2">
+                  <div className="contact-me-shortcode">
+                  <div className="description-2">
+                    <p>Please let us know if you plan to attend by March 1st, 2022</p>
+                </div>
+                    <iframe
+                      title="rsvp"
+                      id="JotFormIFrame-212524314387049"
+                      src={`https://form.jotform.com/212524314387049?numguests13=${numGuests}&username=${name}&code=${code}`}
+                      frameBorder="0"
+                      scrolling="no"
+                      style={{
+                        height: "900px",
+                        ...([1, 2].includes(numGuests)
+                          ? {}
+                          : { display: "none" }),
+                      }}
+                    >
+                      {" "}
+                    </iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* <section id="contact-me-2" className="block spacer p-top-xl">
+              <div className="wrapper">
+                <ContactMe2 />
+              </div>
+            </section> */}
           </div>
         </div>
       </main>

@@ -15,7 +15,7 @@
 }
 
 @media #{$media_sm} {
-	.align-right {
+	.align-right, .align-left {
 		text-align: center !important;
 		padding-bottom: 10px !important;
 	}

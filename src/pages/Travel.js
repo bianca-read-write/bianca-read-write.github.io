@@ -43,8 +43,11 @@ const Travel = () => {
           <div className="wrapper">
             <div className="content">
               <div className="clearfix">
-              <div id="about-img" className="block spacer p-top-lg">
-                  <div className="about-img">
+              <div id="about-img" className="block spacer p-top-sm">
+                <TravelContent />
+
+                
+                <div className="about-img spacer p-top-xl">
                     <iframe
                       title="Celestine Map"
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12098.426283248018!2d-73.99672423206884!3d40.70466167933276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a323080c221%3A0x55426c89c4a6a6a3!2sCelestine!5e0!3m2!1sen!2sus!4v1632185265422!5m2!1sen!2sus"
@@ -56,7 +59,6 @@ const Travel = () => {
                     ></iframe>{" "}
                   </div>
                 </div>
-                <TravelContent />
               </div>
             </div>
           </div>

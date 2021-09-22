@@ -3,60 +3,107 @@ import React from "react";
 const TravelContent = () => {
   return (
     <>
-      <div id="about" className="block spacer p-top-xl">
-        <div className="title">
-          <h2>How to get there</h2>
-        </div>
-
+      <section id="contact-me" className="block spacer p-top-xl">
+      <div className="wrapper">
         <div className="row gutter-width-md with-pb-md">
-          <div className="col-sm-8 col-md-8 col-lg-8 col-xl-8">
-            <p>
-              Street parking in DUMBO is extremely limited. If you plan to drive, plan to park in a garage. We highly recommend, however, that you use a rideshare service such as Lyft or Uber.
-            </p>
+          <div className="col-sm-8 col-md-8 col-lg-7 col-xl-7 align-self-center">
+            <div className="title">
+              <h2>Getting there</h2>
+            </div>
+
+            <div className="description max-width-1">
+              <p>
+                Schedule for Saturday, August thae date. 6:00pm RT Ceremony
+                (blah blah blah) 7:00pm ET Cocktail hour (blach blah blah)
+                8:000pm ET Dinner and Dancing (blah blah) Where Brooklun{" "}
+              </p>
+            </div>
+
+            <div className="description max-width-1 spacer m-top-lg no-space">
+              <a
+                className="btn btn-link btn-line p-0 border-0 min-w-auto text-uppercase before"
+                href={process.env.PUBLIC_URL + "/event"}
+              >
+                External link
+              </a>
+            </div>
           </div>
 
-          <div className="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-            links to recommendations
-          </div>
+          {/* <div className="col-sm-4 col-md-4 col-lg-5 col-xl-5">
+            <div className="img-size-1">
+            <a
+                className="btn btn-link btn-line p-0 border-0 min-w-auto text-uppercase before"
+                href={process.env.PUBLIC_URL + "/event"}
+              >
+                External link
+              </a>
+            </div>
+          </div> */}
+
+
         </div>
       </div>
+    </section>
 
-      <div id="about" className="block spacer p-top-xl">
-        <div className="title">
-          <h2>Where to stay</h2>
-        </div>
-
+    <section id="contact-me" className="block spacer p-top-xl">
+      <div className="wrapper">
         <div className="row gutter-width-md with-pb-md">
+          <div className="col-sm-8 col-md-8 col-lg-7 col-xl-7 align-self-center">
+            <div className="title">
+              <h2>Places to stay</h2>
+            </div>
 
-          <div className="col-sm-8 col-md-8 col-lg-8 col-xl-8">
-            <p>
-              Copy for recommendations nearby
-            </p>
+            <div className="description max-width-1">
+              <p>
+                Schedule for Saturday, August thae date. 6:00pm RT Ceremony
+                (blah blah blah) 7:00pm ET Cocktail hour (blach blah blah)
+                8:000pm ET Dinner and Dancing (blah blah) Where Brooklun{" "}
+              </p>
+            </div>
+
+            <div className="description max-width-1 spacer m-top-lg no-space">
+              <a
+                className="btn btn-link btn-line p-0 border-0 min-w-auto text-uppercase before"
+                href={process.env.PUBLIC_URL + "/event"}
+              >
+                External link
+              </a>
+            </div>
           </div>
 
-          <div className="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-            links to recommendations
-          </div>
         </div>
       </div>
+    </section>
 
-      <div id="about" className="block spacer p-top-xl">
-        <div className="title">
-          <h2>What to do</h2>
-        </div>
-
+    <section id="contact-me" className="block spacer p-top-xl">
+      <div className="wrapper">
         <div className="row gutter-width-md with-pb-md">
-          <div className="col-sm-8 col-md-8 col-lg-8 col-xl-8">
-            <p>
-              There's a lot to explore in Brooklyn!
-            </p>
+          <div className="col-sm-8 col-md-8 col-lg-7 col-xl-7 align-self-center">
+            <div className="title">
+              <h2>Things to do</h2>
+            </div>
+
+            <div className="description max-width-1">
+              <p>
+                Schedule for Saturday, August thae date. 6:00pm RT Ceremony
+                (blah blah blah) 7:00pm ET Cocktail hour (blach blah blah)
+                8:000pm ET Dinner and Dancing (blah blah) Where Brooklun{" "}
+              </p>
+            </div>
+
+            <div className="description max-width-1 spacer m-top-lg no-space">
+              <a
+                className="btn btn-link btn-line p-0 border-0 min-w-auto text-uppercase before"
+                href={process.env.PUBLIC_URL + "/event"}
+              >
+                External link
+              </a>
+            </div>
           </div>
 
-          <div className="col-sm-4 col-md-4 col-lg-4 col-xl-4">
-            links to recommendations
-          </div>
         </div>
       </div>
+    </section>
     </>
   );
 };
