@@ -8,16 +8,18 @@ class MenuModal extends Component {
     super(context);
 
     this.state = {
-      showModal: false
+      showModal: false,
     };
   }
 
   open = () => {
     this.setState({ showModal: true });
+    this.props.onOpenMenu && this.props.onOpenMenu();
   };
 
   close = () => {
     this.setState({ showModal: false });
+    this.props.onCloseMenu && this.props.onCloseMenu();
   };
 
   render() {
@@ -39,7 +41,7 @@ class MenuModal extends Component {
         <Modal
           className="modal fade shift-modal"
           id="menu-modal"
-          show={this.state.showModal}
+          show={this.state.showModal || this.props.showMenu}
           onHide={this.close}
           backdrop={false}
           aria-labelledby="menu-modal"
@@ -81,9 +83,11 @@ class MenuModal extends Component {
 
                 <div className="search-toggle">
                   <button
-                    onClick={() => window.postMessage({
-                      action: "bb-request-logout",
-                    })}
+                    onClick={() =>
+                      window.postMessage({
+                        action: "bb-request-logout",
+                      })
+                    }
                     type="button"
                     className="btn btn-link btn-line p-0 border-0 min-w-auto text-uppercase"
                     data-toggle="modal"
@@ -92,7 +96,6 @@ class MenuModal extends Component {
                     Logout
                   </button>
                 </div>
-
               </div>
             </div>
           </Modal.Body>

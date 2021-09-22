@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import MetaTags from "react-meta-tags";
 import { useHistory } from "react-router-dom";
 
@@ -7,13 +7,24 @@ import Header from "../blocks/header/Header";
 import Footer from "../blocks/footer/Footer";
 
 import PageTitleHome from "../blocks/page-title/PageTitleHome";
-import ContactMe from "../blocks/home/ContactMe";
-import HomeBlog from "../blocks/home/HomeBlog";
 import PortfolioModal from "../components/modal/PortfolioModal";
 
 const Home = () => {
   const history = useHistory();
+  const [showMenu, setShowMenu] = useState(false);
   document.body.classList.add("home");
+
+  const handleLearnMoreClick = () => {
+    setShowMenu(true);
+  };
+
+  const handleMenuClose = () => {
+    setShowMenu(false);
+  };
+
+  const handleMenuOpen = () => {
+    setShowMenu(true);
+  };
 
   return (
     <Fragment>
@@ -33,7 +44,11 @@ const Home = () => {
 
       <Loading />
 
-      <Header />
+      <Header
+        showMenu={showMenu}
+        onOpenMenu={handleMenuOpen}
+        onCloseMenu={handleMenuClose}
+      />
 
       <main id="main" className="site-main">
         <div className="content">
@@ -57,7 +72,7 @@ const Home = () => {
                   type="submit"
                   className="btn btn-outline-primary text-uppercase"
                   style={{ minHeight: "70px", marginTop: "1rem" }}
-                  onClick={() => history.push("/rsvp")}
+                  onClick={handleLearnMoreClick}
                 >
                   LEARN MORE
                 </button>
@@ -65,12 +80,10 @@ const Home = () => {
             </div>
 
             <PortfolioModal />
-{/* 
+            {/* 
             <ContactMe /> */}
 
             {/* <HomeBlog /> */}
-
-        
           </div>
         </div>
       </main>
