@@ -95,10 +95,10 @@ const About = () => {
 
                         <div className="contacts-item-content">
                           <h3 className="contacts-item-title after">
-                            What to wear
+                            Attire
                           </h3>
                           <p className="contacts-item-description">
-                            Formal cocktail attire
+                            Formal cocktail attire encouraged
                             <br />
                             &nbsp;
                           </p>

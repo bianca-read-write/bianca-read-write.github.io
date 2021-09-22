@@ -55,7 +55,7 @@ const AboutContent = () => {
                     </div>
 
                     <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
-                      <p>Seated dinner</p>
+                      <p>Dinner</p>
                     </div>
                   </div>
                 </div>
