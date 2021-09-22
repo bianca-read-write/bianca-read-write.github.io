@@ -1,18 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import Gallery from '../gallery/Gallery';
+import Gallery from "../gallery/Gallery";
 
 const HomePortfolio = (props) => {
-    return (
-        <section id="porfolio" className="block spacer p-top-sm">
-            <div className="wrapper">
-
-                <div className="spacer p-top-sm">
-                    <Gallery onExpandClick={props.onExpandClick}/>
-                </div>
-            </div>
-        </section>
-    );
+  return (
+    <section id="porfolio" className="block spacer p-top-xl">
+      <div className="wrapper">
+        <Gallery onExpandClick={props.onExpandClick} />
+      </div>
+    </section>
+  );
 };
 
 export default HomePortfolio;

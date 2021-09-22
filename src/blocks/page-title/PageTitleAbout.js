@@ -19,10 +19,6 @@ const PageTitleAbout = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className="description-2">
-          <p>Optional event description</p>
-        </div> */}
       </div>
     </section>
   );
