@@ -35,7 +35,8 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "npm add-domain && gh-pages -d build",
+        "add-domain": "echo \"biancabrian.com\" > build/CNAME",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
