@@ -36,14 +36,19 @@ const page404 = () => {
           <div className="wrapper">
             <div className="content">
               <div className="row gutter-width-md">
-                <div className="col-11 col-sm-10 col-md-9 col-lg-6 col-xl-6">
+                <div className="col-11 col-sm-10 col-md-10 col-lg-7 col-xl-7">
                   <PageTitle404 />
 
                   <p className="text after">
-                    The page you were looking for couldn't be found.
+                    Page not found, but you did find our cat, Fernando.
                   </p>
 
                   <BackToHome />
+                </div>
+                <div className="col-12 col-sm-12 col-md-9 col-lg-7 col-xl-5 spacer p-top-md">
+                  <div className="page-title-img">
+                    <img src="assets/img/demo/nando3.jpg" alt="Nando" />
+                  </div>
                 </div>
               </div>
             </div>

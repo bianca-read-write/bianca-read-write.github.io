@@ -154,7 +154,7 @@ const Portfolio = () => {
       <main id="main" className="site-main">
         <PageTitlePortfolio />
 
-        <div id="page-content" className="spacer p-top-xl">
+        <div id="page-content" className="spacer p-top-lg">
           <div className="wrapper">
             <div className="contact-me">
               <div className="contact-me-img-and-title">
@@ -179,7 +179,7 @@ const Portfolio = () => {
                       frameBorder="0"
                       scrolling="no"
                       style={{
-                        height: "980px",
+                        height: "1080px",
                         ...([1, 2].includes(numGuests)
                           ? {}
                           : { display: "none" }),
@@ -192,11 +192,6 @@ const Portfolio = () => {
               </div>
             </div>
 
-            {/* <section id="contact-me-2" className="block spacer p-top-xl">
-              <div className="wrapper">
-                <ContactMe2 />
-              </div>
-            </section> */}
           </div>
         </div>
       </main>

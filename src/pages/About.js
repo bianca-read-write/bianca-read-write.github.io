@@ -46,7 +46,7 @@ const About = () => {
                           <div className="object-fit-cover">
                             <img
                               src="assets/img/demo/05_img.png"
-                              alt="Location"
+                              alt="Frond 1"
                             />
                           </div>
                         </div>
@@ -55,8 +55,7 @@ const About = () => {
                           <h3 className="contacts-item-title after">When</h3>
                           <p className="contacts-item-description">
                             Saturday, August 27, 2022
-                            <br />
-                            6:00 PM to 11:30 PM
+                            <br/>6:00 PM to 11:30 PM
                           </p>
                         </div>
                       </div>
@@ -68,7 +67,7 @@ const About = () => {
                           <div className="object-fit-cover">
                             <img
                               src="assets/img/demo/06_img.png"
-                              alt="Phone no."
+                              alt="Frond 2"
                             />
                           </div>
                         </div>
@@ -78,7 +77,7 @@ const About = () => {
                           <p className="contacts-item-description">
                             <a href="https://goo.gl/maps/VmPPDJDCUp7AqDVZ8">
                               Celestine
-                              <br />1 John St, Brooklyn, NY 11201
+                              <br/>1 John St, Brooklyn, NY
                             </a>
                           </p>
                         </div>
@@ -89,7 +88,7 @@ const About = () => {
                       <div className="contacts-item">
                         <div className="img object-fit">
                           <div className="object-fit-cover">
-                            <img src="assets/img/demo/07_img.png" alt="Email" />
+                            <img src="assets/img/demo/07_img.png" alt="Frond 3" />
                           </div>
                         </div>
 
@@ -98,9 +97,8 @@ const About = () => {
                             Attire
                           </h3>
                           <p className="contacts-item-description">
-                            Formal cocktail attire encouraged
-                            <br />
-                            &nbsp;
+                            Cocktail attire recommended
+                            <br/>&nbsp;
                           </p>
                         </div>
                       </div>

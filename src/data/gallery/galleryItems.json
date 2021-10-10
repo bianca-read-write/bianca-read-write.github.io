@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "title": "DUMBO01",
-        "imgSrc": "assets/img/edwards/5D2A8388_1.jpg"
+        "title": "Bridge",
+        "imgSrc": "assets/img/edwards/5D2A8506.jpg"
     },
     {
         "id": 2,
-        "title": "DUMBO02",
-        "imgSrc": "assets/img/edwards/5D2A8894.jpg"
+        "title": "Washington St",
+        "imgSrc": "assets/img/edwards/9Y7A3049.jpg"
     },
     {
         "id": 3,
-        "title": "DUMBO03",
-        "imgSrc": "assets/img/edwards/5D2A8506.jpg"
+        "title": "Ring",
+        "imgSrc": "assets/img/edwards/5D2A9646.jpg"
     }
 ]

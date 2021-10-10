@@ -3,13 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
-import BlogSinglePost from "./pages/BlogSinglePost";
-import SearchResults from "./pages/SearchResults";
+import Gifts from "./pages/Gifts";
 import Portfolio from "./pages/Portfolio";
-import PortfolioInside from "./pages/PortfolioInside";
 import page404 from "./pages/404";
-import UserInterface from "./pages/UserInterface";
 import AnonymousPage from "./pages/AnonymousPage";
 import TravelPage from "./pages/Travel";
 import { Auth } from "./api/auth";
@@ -64,38 +60,18 @@ function App() {
               />
               <Route
                 exact
+                path={`${process.env.PUBLIC_URL + "/gifts"}`}
+                component={Gifts}
+              />
+              <Route
+                exact
                 path={`${process.env.PUBLIC_URL + "/travel"}`}
                 component={TravelPage}
               />
               <Route
                 exact
-                path={`${process.env.PUBLIC_URL + "/blog"}`}
-                component={Blog}
-              />
-              <Route
-                exact
-                path={`${process.env.PUBLIC_URL + "/blog-single-post"}`}
-                component={BlogSinglePost}
-              />
-              <Route
-                exact
-                path={`${process.env.PUBLIC_URL + "/search-results"}`}
-                component={SearchResults}
-              />
-              <Route
-                exact
                 path={`${process.env.PUBLIC_URL + "/rsvp"}`}
                 component={Portfolio}
-              />
-              <Route
-                exact
-                path={`${process.env.PUBLIC_URL + "/ui"}`}
-                component={UserInterface}
-              />
-              <Route
-                exact
-                path={`${process.env.PUBLIC_URL + "/portfolio-inside"}`}
-                component={PortfolioInside}
               />
               <Route exact component={page404} />
             </Switch>

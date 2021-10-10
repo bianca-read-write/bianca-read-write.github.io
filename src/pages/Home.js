@@ -80,10 +80,7 @@ const Home = () => {
             </div>
 
             <PortfolioModal />
-            {/* 
-            <ContactMe /> */}
 
-            {/* <HomeBlog /> */}
           </div>
         </div>
       </main>

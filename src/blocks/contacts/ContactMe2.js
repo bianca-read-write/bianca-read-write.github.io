@@ -7,7 +7,7 @@ const ContactMe2 = () => {
         <div className="img object-fit">
           <div className="object-fit-cover">
             <img
-              src="assets/img/edwards/9Y7A3248.jpg"
+              src="assets/img/photos/9Y7A3248.jpg"
               alt="Contacts"
               style={{ width: "100%" }}
             />
