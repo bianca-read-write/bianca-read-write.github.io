@@ -1,6 +1,6 @@
 {
-    "short_name": "Loversy React JS",
-    "name": "Loversy - Wedding Photography React JS Template",
+    "short_name": "bianca & brian",
+    "name": "bianca & brian",
     "icons": [
         {
             "src": "assets/img/favicon/favicon-16x16.ico",
@@ -8,18 +8,13 @@
             "type": "image/x-icon"
         },
         {
-            "src": "assets/img/logo/logo.svg",
+            "src": "assets/img/logo/logo-black-regular.svg",
             "type": "image/svg",
-            "sizes": "50x39"
-        },
-        {
-            "src": "assets/img/logo/logo.svg",
-            "type": "image/svg",
-            "sizes": "141x42"
+            "sizes": "304x42"
         }
     ],
     "start_url": ".",
     "display": "standalone",
     "theme_color": "#706e67",
-    "background_color": "#f3f2f1"
+    "background_color": "#ffffff"
 }
