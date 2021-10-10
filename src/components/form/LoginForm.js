@@ -24,14 +24,16 @@ export const LoginForm = (props) => {
       props.onSuccess && props.onSuccess(json);
       if (window.location.hostname !== "localhost" && window.gtag) {
         window.gtag("event", "login-success", {
-          code: code,
+          code: code.toLowerCase(),
+          name: json.name,
+          numGuests: json.numGuests
         });
       }
     } catch (e) {
       props.onFailure && props.onFailure();
       if (window.location.hostname !== "localhost" && window.gtag) {
         window.gtag("event", "login-failure", {
-          code: code,
+          code: code.toLowerCase(),
         });
       }
     }
@@ -58,7 +60,7 @@ export const LoginForm = (props) => {
           name="code"
           className="form-control form-control-lg"
           id="cf-1-code"
-          placeholder="Please enter the code included with your invitation"
+          placeholder="Please enter the code included with your invite"
           value={code}
           disabled={loading}
           style={{ minHeight: "70px", textAlign: "center" }}
