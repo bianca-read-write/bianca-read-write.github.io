@@ -1,23 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "927a070b8aebd14ad857610dd2d3d2af",
+    "revision": "65cfd5f9b34b16b46f229cfa7c05a380",
     "url": "/index.html"
   },
   {
-    "revision": "a07dc14b01364c98aba1",
-    "url": "/static/css/2.2b084824.chunk.css"
+    "revision": "b573c54534a03e65ff16",
+    "url": "/static/css/main.0e533114.chunk.css"
   },
   {
-    "revision": "05be2258552d439ebfeb",
-    "url": "/static/css/main.7d088b99.chunk.css"
+    "revision": "8d81c85e538b6617af38",
+    "url": "/static/js/2.7698d8ca.chunk.js"
   },
   {
-    "revision": "a07dc14b01364c98aba1",
-    "url": "/static/js/2.3bbdb486.chunk.js"
-  },
-  {
-    "revision": "05be2258552d439ebfeb",
-    "url": "/static/js/main.0b8ff273.chunk.js"
+    "revision": "b573c54534a03e65ff16",
+    "url": "/static/js/main.e1c76d0e.chunk.js"
   },
   {
     "revision": "36eecaf3e14ecd2f4b6c",
@@ -102,6 +98,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f184b6b91c9a786ed75f962786e11ec2",
     "url": "/static/media/PlayfairDisplay-Regular.f184b6b9.woff2"
+  },
+  {
+    "revision": "42a4e04a7fadeb8fbf94af1fd5787f0e",
+    "url": "/static/media/Recoleta-Bold.42a4e04a.woff2"
+  },
+  {
+    "revision": "89bb0a08e2daf8991360254fe0a367aa",
+    "url": "/static/media/Recoleta-Bold.89bb0a08.eot"
+  },
+  {
+    "revision": "a2650163d99c2023bd83cace336ca2ac",
+    "url": "/static/media/Recoleta-Bold.a2650163.woff"
+  },
+  {
+    "revision": "c57966adabf72b655832eaf0dbbac94b",
+    "url": "/static/media/Recoleta-Bold.c57966ad.ttf"
+  },
+  {
+    "revision": "6aff230c15539d9aa16c3c8cc0f6be16",
+    "url": "/static/media/Recoleta-Regular.6aff230c.woff"
+  },
+  {
+    "revision": "7eb49619205b759292e7ec0a78a61e6c",
+    "url": "/static/media/Recoleta-Regular.7eb49619.ttf"
+  },
+  {
+    "revision": "f6e3b6a90d26ec4b40e07debe98561e4",
+    "url": "/static/media/Recoleta-Regular.f6e3b6a9.woff2"
   },
   {
     "revision": "0cb5a5c0d251c109458c85c6afeffbaa",
