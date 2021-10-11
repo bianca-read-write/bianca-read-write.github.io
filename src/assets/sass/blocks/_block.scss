@@ -16,8 +16,7 @@
 .description {
 	&:not([class*='-element']) {
 		&.max-width-1 {
-			max-width: 638px;
-			margin-left: 30.2%;
+			margin-left: 15%;
 
 			@media #{$media_sm} {
 				margin-left: 0;
