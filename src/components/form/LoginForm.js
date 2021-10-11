@@ -60,7 +60,7 @@ export const LoginForm = (props) => {
           name="code"
           className="form-control form-control-lg"
           id="cf-1-code"
-          placeholder="Please enter the code included with your invite"
+          placeholder="Please enter the code included with your invitation"
           value={code}
           disabled={loading}
           style={{ minHeight: "70px", textAlign: "center" }}
