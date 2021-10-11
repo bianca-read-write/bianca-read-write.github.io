@@ -17,6 +17,7 @@ export const AnonymousPage = ({ onLogin }) => (
         <meta name="googlebot" content="noindex, nofollow" />
         <meta name="google" content="notranslate" />
         <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
       </MetaTags>
 
     <main id="main" className="site-main">

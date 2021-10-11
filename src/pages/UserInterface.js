@@ -72,6 +72,7 @@ const UserInterface = () => {
                 <meta name="googlebot" content="index, follow" />
                 <meta name="google" content="notranslate" />
                 <meta name="format-detection" content="telephone=no" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
             </MetaTags>
 
             <Loading />
