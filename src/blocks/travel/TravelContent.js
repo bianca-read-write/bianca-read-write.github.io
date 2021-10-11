@@ -47,7 +47,7 @@ const TravelContent = () => {
 
                 <p>
                   <a
-                    className="btn btn-link btn-line p-0 border-0 min-w-auto text-uppercase before"
+                    className="btn btn-link btn-line p-0 border-0 min-w-auto text-uppercase spacer m-top-xs"
                     href="https://www.hotels.com/ho512373/the-tillary-hotel-brooklyn-united-states-of-america/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -56,7 +56,7 @@ const TravelContent = () => {
                   </a>
                   <br />
                   <a
-                    className="btn btn-link btn-line p-0 border-0 min-w-auto text-uppercase before spacer m-top-xs"
+                    className="btn btn-link btn-line p-0 border-0 min-w-auto text-uppercase spacer m-top-xs"
                     href="https://www.hotels.com/ho459006/hampton-inn-brooklyn-downtown-ny-brooklyn-united-states-of-america/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -65,7 +65,7 @@ const TravelContent = () => {
                   </a>
                   <br />
                   <a
-                    className="btn btn-link btn-line p-0 border-0 min-w-auto text-uppercase before spacer m-top-xs"
+                    className="btn btn-link btn-line p-0 border-0 min-w-auto text-uppercase spacer m-top-xs"
                     href="https://www.hotels.com/ho476952576/hotel-50-bowery-part-of-jdv-by-hyatt-new-york-united-states-of-america/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -134,7 +134,7 @@ const TravelContent = () => {
                   >
                     Butler
                   </a>
-                  <br />
+                  <span style={{fontSize: '35%', display: 'block'}}><br /></span>
                   Butler is a must-try coffeeshop and bakery from Michelin Star
                   Chef, Ryan Butler. Drop by for a pick-me-up in the morning or
                   afternoon featuring coffee from Intelligentsia and an
@@ -149,7 +149,7 @@ const TravelContent = () => {
                   >
                     Time Out Market New York
                   </a>
-                  <br />
+                  <span style={{fontSize: '35%', display: 'block'}}><br /></span>
                   Time Out Market New York helps everyone see and taste some of
                   the best restaurants NYC has to offer all under one roof! Grab
                   a quick bite or drink then step outside to enjoy the
@@ -166,7 +166,7 @@ const TravelContent = () => {
                   >
                     The High Line
                   </a>
-                  <br />
+                  <span style={{fontSize: '35%', display: 'block'}}><br /></span>
                   The High Line is a beautiful park elevated above NY streets on
                   an old frieght rail. Stroll over to 14th St and 10th Ave in
                   the cool Chelsea neighborhood to enter the park. Take a stroll
@@ -183,7 +183,7 @@ const TravelContent = () => {
                   >
                     West Village
                   </a>
-                  <br />
+                  <span style={{fontSize: '35%', display: 'block'}}><br /></span>
                   If you're looking for a true NYC experience, be sure to visit
                   West Village! Start at Washington Square Park under the arch,
                   grab a coffee or falafel at Mamouns, and head towards Bleeker
@@ -198,7 +198,7 @@ const TravelContent = () => {
                   >
                     Williamburg
                   </a>
-                  <br />
+                  <span style={{fontSize: '35%', display: 'block'}}><br /></span>
                   If you're ready to take on another side of Brooklyn, be sure
                   to head over to Williamsburg. Walk down Bedford Ave between
                   North 12th Street (near McCarren Park) and South 2nd Street

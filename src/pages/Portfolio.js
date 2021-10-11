@@ -145,6 +145,7 @@ const Portfolio = () => {
         <meta name="googlebot" content="noindex, nofollow" />
         <meta name="google" content="notranslate" />
         <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
       </MetaTags>
 
       <Loading />
@@ -179,7 +180,7 @@ const Portfolio = () => {
                       frameBorder="0"
                       scrolling="no"
                       style={{
-                        height: "1080px",
+                        height: "1140px",
                         ...([1, 2].includes(numGuests)
                           ? {}
                           : { display: "none" }),
