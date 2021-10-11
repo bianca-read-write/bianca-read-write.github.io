@@ -75,7 +75,7 @@ const Home = () => {
                   style={{ minHeight: "70px", marginTop: "1rem" }}
                   onClick={handleLearnMoreClick}
                 >
-                  LEARN MORE
+                  READ MORE
                 </button>
               </div>
             </div>

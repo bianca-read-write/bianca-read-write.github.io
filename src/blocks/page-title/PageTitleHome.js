@@ -18,7 +18,7 @@ const PageTitleHome = () => {
               <p>
                 We're excited to invite you to our wedding celebration on August
                 27, 2022! Join us for a summer evening in Brooklyn. Meet our
-                family and friends, bask in the cityscape views, grab a drink,
+                family and friends, take in the city views, enjoy a cocktail,
                 and dance the night away!
               </p>
             </div>

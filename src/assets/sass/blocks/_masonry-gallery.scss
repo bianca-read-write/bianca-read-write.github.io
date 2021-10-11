@@ -136,6 +136,10 @@ ul.gallery-filter {
 				position: relative;
 				overflow: hidden;
 
+				&:hover {
+					cursor: pointer;
+				}
+
 				.img {
 					&.object-fit {
 						&:before {
