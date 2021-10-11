@@ -43,13 +43,12 @@ class MenuModal extends Component {
           ref={(node) => (this.chart = node)}
         >
           <Modal.Header className="modal-header-top">
-            <a
+            <span
               title="Logo"
               className="logo logo-primary transform-scale-h"
-              href={process.env.PUBLIC_URL + "/"}
             >
               <img src="assets/img/logo/logo-black-regular.svg" alt="Logo" />
-            </a>
+            </span>
 
             <button
               onClick={this.close}

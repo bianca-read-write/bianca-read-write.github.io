@@ -38,36 +38,39 @@ class PortfolioSlider extends Component {
   };
 
   componentDidMount() {
-    swiper = new Swiper(".adv-slider .adv-swiper-container", {
-      noSwipingClass: "adv-swiper-no-swiping",
-      containerModifierClass: "adv-swiper-container-",
-      slideClass: "adv-swiper-slide",
-      slideBlankClass: "adv-swiper-slide-invisible-blank",
-      slideActiveClass: "adv-swiper-slide-active",
-      slideDuplicateActiveClass: "adv-swiper-slide-duplicate-active",
-      slideVisibleClass: "adv-swiper-slide-visible",
-      slideDuplicateClass: "adv-swiper-slide-duplicate",
-      slideNextClass: "adv-swiper-slide-next",
-      slideDuplicateNextClass: "adv-swiper-slide-duplicate-next",
-      slidePrevClass: "adv-swiper-slide-prev",
-      slideDuplicatePrevClass: "adv-swiper-slide-duplicate-prev",
-      wrapperClass: "adv-swiper-wrapper",
-      speed: 300,
-      loop: false,
-      navigation: {
-        disabledClass: "adv-swiper-button-disabled",
-        hiddenClass: "adv-swiper-button-hidden",
-        lockClass: "adv-swiper-button-lock",
-        nextEl: ".adv-2-swiper-button-next",
-        prevEl: ".adv-2-swiper-button-prev",
-      },
-      on: { activeIndexChange: () => this.checkDisabled() },
-      spaceBetween: 0,
-    });
-
-    swiper = document.querySelector(".adv-swiper-container").swiper;
-    swiper.on("init", this.checkDisabled);
-    swiper.slideTo(this.state.selectedIndex);
+    setTimeout(() => {
+      swiper = new Swiper(".adv-slider .adv-swiper-container", {
+        noSwipingClass: "adv-swiper-no-swiping",
+        containerModifierClass: "adv-swiper-container-",
+        slideClass: "adv-swiper-slide",
+        slideBlankClass: "adv-swiper-slide-invisible-blank",
+        slideActiveClass: "adv-swiper-slide-active",
+        slideDuplicateActiveClass: "adv-swiper-slide-duplicate-active",
+        slideVisibleClass: "adv-swiper-slide-visible",
+        slideDuplicateClass: "adv-swiper-slide-duplicate",
+        slideNextClass: "adv-swiper-slide-next",
+        slideDuplicateNextClass: "adv-swiper-slide-duplicate-next",
+        slidePrevClass: "adv-swiper-slide-prev",
+        slideDuplicatePrevClass: "adv-swiper-slide-duplicate-prev",
+        wrapperClass: "adv-swiper-wrapper",
+        speed: 0,
+        loop: false,
+        navigation: {
+          disabledClass: "adv-swiper-button-disabled",
+          hiddenClass: "adv-swiper-button-hidden",
+          lockClass: "adv-swiper-button-lock",
+          nextEl: ".adv-2-swiper-button-next",
+          prevEl: ".adv-2-swiper-button-prev",
+        },
+        on: { activeIndexChange: () => this.checkDisabled() },
+        spaceBetween: 0,
+      });
+  
+      swiper = document.querySelector(".adv-swiper-container").swiper;
+      swiper.on("init", this.checkDisabled);
+      swiper.slideTo(this.state.selectedIndex);
+      swiper.params.speed = 300;
+    }, 0);
   }
 
   checkDisabled = () => {

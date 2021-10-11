@@ -76,18 +76,17 @@ class Gallery extends Component {
                     key={key}
                     className={"gallery-item active " + item.category}
                   >
-                    <a
+                    <span
                       title={item.title}
                       onClick={() => this.props.onExpandClick(item.id)}
                       className="gallery-item-content"
-                      href="/#"
                     >
                       <div className="img object-fit">
                         <div className="object-fit-cover">
                           <img src={item.imgSrc} alt={item.title} />
                         </div>
                       </div>
-                    </a>
+                    </span>
                   </div>
                 );
               })}
