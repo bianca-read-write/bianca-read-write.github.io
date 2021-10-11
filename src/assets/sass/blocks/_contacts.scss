@@ -46,8 +46,8 @@
       margin-bottom: -$space_lg;
 
       @media #{$media_sm} {
-        padding-left: $space_lg / 2;
-        padding-right: $space_lg / 2;
+        padding-left: 0;
+        padding-right: 0;
       }
 
       .contact-me-description {
