@@ -99,7 +99,6 @@ const About = () => {
                           </h3>
                           <p className="contacts-item-description">
                             Cocktail attire recommended
-                            <br/>&nbsp;
                           </p>
                         </div>
                       </div>

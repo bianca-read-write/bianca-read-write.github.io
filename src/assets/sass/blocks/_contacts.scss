@@ -86,6 +86,10 @@
 
 .page-gifts .contacts-item .img {
   min-height: 500px;
+
+  @media #{$media_sm} {
+    min-height: unset;
+  }
 }
 
 .contacts-item {
