@@ -49,6 +49,7 @@ const Home = () => {
         showMenu={showMenu}
         onOpenMenu={handleMenuOpen}
         onCloseMenu={handleMenuClose}
+        showLogo={false}
       />
 
       <main id="main" className="site-main">
@@ -56,7 +57,7 @@ const Home = () => {
           <div className="clearfix">
             <PageTitleHome />
 
-            <div className="row gutter-width-md with-pb-sm spacer p-top-xl">
+            <div className="row gutter-width-md with-pb-sm spacer p-top-lg">
               <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
                 <button
                   type="submit"
