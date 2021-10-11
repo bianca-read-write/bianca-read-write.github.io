@@ -196,7 +196,7 @@ const TravelContent = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Williamburg
+                    Williamsburg
                   </a>
                   <span style={{fontSize: '35%', display: 'block'}}><br /></span>
                   If you're ready to take on another side of Brooklyn, be sure
