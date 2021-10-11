@@ -536,7 +536,9 @@ select {
 
   input[value=""] {
     @media #{$media_sm} {
-      font-size: 15px;
+      font-size: 1rem;
+      padding-left: .3rem;
+      padding-right: .3rem;
     }
   }
 }
