@@ -4,7 +4,7 @@ import Gallery from "../gallery/Gallery";
 
 const HomePortfolio = (props) => {
   return (
-    <section id="porfolio" className="block spacer p-top-xl">
+    <section id="porfolio" className="block spacer p-top-lg">
       <div className="wrapper">
         <Gallery onExpandClick={props.onExpandClick} />
       </div>
