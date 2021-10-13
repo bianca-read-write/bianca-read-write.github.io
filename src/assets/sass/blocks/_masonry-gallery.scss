@@ -129,6 +129,10 @@ ul.gallery-filter {
 				&:nth-child(9n+9) {
 					display: block;
 				}
+
+				&:first-child {
+					display: none;
+				}
 			}
 
 			.gallery-item-content {

@@ -14,8 +14,8 @@ const ModalMenuPrimary = (props) => {
               : "")
           }
         >
-          <a title="Home" href={process.env.PUBLIC_URL + "/"}>
-            Home
+          <a title="Welcome" href={process.env.PUBLIC_URL + "/"}>
+            Welcome
           </a>
         </li>
 

@@ -74,10 +74,6 @@ class MenuModal extends Component {
 
           <Modal.Body className="modal-body-centered">
             <div className="d-flex justify-content-center w-100">
-              {/* <div className="menu-img">
-                <img src="assets/img/menu/menu-img.png" alt="Menu" />
-              </div> */}
-
               <div className="animated fadeindown">
                 <ModalMenuPrimary />
 

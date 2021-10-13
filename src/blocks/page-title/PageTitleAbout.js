@@ -12,9 +12,9 @@ const PageTitleAbout = () => {
 
             <div className="description max-width-1 spacer p-top-lg">
               <p>
-                Our love story started in New York City, so it’s only proper for
-                us to ring in our lifelong commitment here. We’re coming
-                together for an intimate celebration at{" "}
+                Our love story started in New York City, so it’s only
+                appropriate for us to ring in our lifelong commitment here.
+                We’re coming together for an intimate celebration at{" "}
                 <a
                   className="underline"
                   href="https://celestinebk.com/"
@@ -23,9 +23,9 @@ const PageTitleAbout = () => {
                 >
                   Celestine
                 </a>
-                , a hip Mediterranean restaurant overlooking the New York
-                skyline. We’ll kick things off with a short ceremony, a sunset
-                cocktail hour, dinner, drinks, and, of course, dancing!
+                , an elegant Mediterranean restaurant overlooking the New York
+                City skyline. We’ll kick things off with a short ceremony, a
+                sunset cocktail hour, dinner, drinks, and, of course, dancing!
               </p>
             </div>
           </div>

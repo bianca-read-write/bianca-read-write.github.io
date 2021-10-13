@@ -19,10 +19,10 @@ const TravelContent = () => {
                 >
                   Celestine
                 </a>{" "}
-                is located in DUMBO, Brooklyn, just across the river from Lower
-                Manhattan. Given parking in DUMBO is extremeley limited, we
-                suggest minimizing car usage or planning on using ride-share
-                services such as Uber or Lyft.
+                is located in the DUMBO neighborhood of Brooklyn, just across
+                the river from Lower Manhattan. Parking in DUMBO is extremeley
+                limited, so we suggest minimizing car usage or planning on using
+                ride-share services such as Uber or Lyft.
               </p>
             </div>
           </div>
