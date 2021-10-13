@@ -16,9 +16,8 @@ const PageTitleGifts = () => {
                 create two funds: our honeymoon fund will help us travel through
                 Asia, explore new places, and try amazing food, while our first
                 home fund will help us secure a down payment for our future
-                home. If you're able, you can contribute as much or as little as
-                you can. And if not, your presence on our big day is much
-                appreciated!
+                home. If you'd like, please contribute any amount you see fit.
+                If not, your presence at our celebration is much appreciated!
               </p>
             </div>
           </div>
