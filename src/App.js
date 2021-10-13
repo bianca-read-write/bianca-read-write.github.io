@@ -39,6 +39,10 @@ function App() {
         name: login.name,
         code: login.code,
       });
+      window.gtag(
+        "event",
+        `page_load: ${login.name}`
+      );
     }
   }
 
