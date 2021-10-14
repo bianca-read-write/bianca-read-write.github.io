@@ -11,7 +11,7 @@ const AboutContent = () => {
                 <h2>Schedule</h2>
               </div>
 
-              <div className="description max-width-1">
+              <div>
                 <div className="block spacer p-top-sm">
                   <div className="row gutter-width-md with-pb-md">
                     <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">

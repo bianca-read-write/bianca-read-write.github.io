@@ -5,7 +5,7 @@ const TravelContent = () => {
     <>
       <section id="contact-me" className="block spacer p-top-xl">
         <div className="row gutter-width-md with-pb-sm">
-          <div className="col-sm-8 col-md-8 col-lg-8 col-xl-8 align-self-center">
+          <div className="col-sm-8 col-md-8 col-lg-7 col-xl-7 align-self-center">
             <div className="title">
               <h2>Getting there</h2>
             </div>
