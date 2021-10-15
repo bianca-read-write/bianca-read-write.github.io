@@ -41,7 +41,7 @@ function App() {
       });
       window.gtag(
         "event",
-        `page_load: ${login.name}`
+        `view | ${window.location.pathname} | ${login.name}`
       );
     }
   }
