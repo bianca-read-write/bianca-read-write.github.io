@@ -29,8 +29,8 @@ function App() {
     }
   };
 
-  if (login.valid && window.location.hostname !== "localhost") {
-    window.gtag(`${login.name} — ${window.location.pathname}`);
+  if (login.valid && window.location.hostname !== "localhost" && window.gtag) {
+    window.gtag(`${login.name}: ${window.location.pathname}`);
   }
 
   return (
