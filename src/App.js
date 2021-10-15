@@ -29,7 +29,7 @@ function App() {
     }
   };
 
-  if (login.valid && window.location.hostname !== "localhost" && window.gtag) {
+  if (login.valid && window.location.hostname !== "localhost") {
     window.gtag(`${login.name} — ${window.location.pathname}`);
   }
 
