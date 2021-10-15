@@ -29,8 +29,21 @@ function App() {
     }
   };
 
-  if (login.valid && window.location.hostname !== "localhost" && window.gtag) {
-    window.gtag(`${login.name}: ${window.location.pathname}`);
+  if (login.valid) {
+    if (window.location.hostname !== "localhost") {
+      window.gtag("config", "GA_MEASUREMENT_ID", {
+        user_id: `${login.code}-${login.name}`,
+      });
+
+      window.gtag("set", "user_properties", {
+        name: login.name,
+        code: login.code,
+      });
+      window.gtag(
+        "event",
+        `page_load: ${login.name}`
+      );
+    }
   }
 
   return (
