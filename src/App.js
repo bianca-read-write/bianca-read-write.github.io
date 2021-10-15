@@ -30,7 +30,7 @@ function App() {
   };
 
   if (login.valid && window.location.hostname !== "localhost" && window.gtag) {
-    window.gtag("event", `view | ${window.location.pathname} | ${login.name}`);
+    window.gtag(`${login.name} — ${window.location.pathname}`);
   }
 
   return (
