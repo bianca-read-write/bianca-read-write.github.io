@@ -175,15 +175,21 @@ const Portfolio = () => {
 
               <div className="contact-me-content">
                 <div className="contact-me-content-2">
-                  {[1, 2].includes(numGuests) && (
+                  {[1, 2, 3].includes(numGuests) && (
                     <iframe
                       title="rsvp"
                       id="JotFormIFrame-212524314387049"
                       src={`https://form.jotform.com/212524314387049?numguests13=${numGuests}&username=${name}&code=${code}`}
                       frameBorder="0"
                       scrolling="no"
-                      style={{
+                      style={numGuests === 3 ? {
+                        height: "1160px",
+                      } : numGuests === 2 ? {
                         height: "1020px",
+                      } : numGuests === 1 ? {
+                        height: "500px",
+                      } : {
+                        height: "0",
                       }}
                     >
                       {" "}

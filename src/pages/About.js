@@ -25,7 +25,10 @@ const About = () => {
         <meta name="googlebot" content="noindex, nofollow" />
         <meta name="google" content="notranslate" />
         <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+        />
       </MetaTags>
 
       <Loading />
@@ -56,7 +59,8 @@ const About = () => {
                           <h3 className="contacts-item-title after">When</h3>
                           <p className="contacts-item-description">
                             Saturday, August 27, 2022
-                            <br/>6:00 PM to 11:30 PM
+                            <br />
+                            6:00 PM to 11:30 PM
                           </p>
                         </div>
                       </div>
@@ -78,7 +82,7 @@ const About = () => {
                           <p className="contacts-item-description">
                             <a href="https://goo.gl/maps/VmPPDJDCUp7AqDVZ8">
                               Celestine
-                              <br/>1 John St, Brooklyn, NY
+                              <br />1 John St, Brooklyn, NY
                             </a>
                           </p>
                         </div>
@@ -89,14 +93,15 @@ const About = () => {
                       <div className="contacts-item">
                         <div className="img object-fit">
                           <div className="object-fit-cover">
-                            <img src="assets/img/demo/07_img.png" alt="Frond 3" />
+                            <img
+                              src="assets/img/demo/07_img.png"
+                              alt="Frond 3"
+                            />
                           </div>
                         </div>
 
                         <div className="contacts-item-content">
-                          <h3 className="contacts-item-title after">
-                            Attire
-                          </h3>
+                          <h3 className="contacts-item-title after">Attire</h3>
                           <p className="contacts-item-description">
                             Cocktail attire recommended
                           </p>

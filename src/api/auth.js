@@ -3,7 +3,7 @@ const MS_IN_ONE_MINUTE = MS_IN_ONE_SECOND * 60;
 const MS_IN_ONE_HOUR = MS_IN_ONE_MINUTE * 60;
 const MS_IN_ONE_DAY = MS_IN_ONE_HOUR * 24;
 
-export const SESSION_TIMEOUT = 30 * MS_IN_ONE_DAY;
+export const SESSION_TIMEOUT = 300 * MS_IN_ONE_DAY;
 
 export const LOGIN_KEY = "BB_LOGIN";
 export const LOGOUT_KEY = "BB_LOGOUT";
