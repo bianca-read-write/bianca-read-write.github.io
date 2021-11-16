@@ -91,7 +91,7 @@ const AboutContent = () => {
         <div className="row gutter-width-md with-pb-sm">
           <div className="col-sm-8 col-md-8 col-lg-7 col-xl-7 align-self-center">
             <div className="title">
-              <h2>COVID-19</h2>
+              <h2>COVID-19 Safety Measures</h2>
             </div>
 
             <div className="description max-width-1">
