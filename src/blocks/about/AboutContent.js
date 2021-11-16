@@ -4,87 +4,87 @@ const AboutContent = () => {
   return (
     <>
       <section id="contact-me" className="block spacer p-top-xl">
-          <div className="row gutter-width-md with-pb-md">
-            <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 align-self-center">
-              <div className="title">
-                <h2>Schedule</h2>
+        <div className="row gutter-width-md with-pb-md">
+          <div className="col-sm-12 col-md-12 col-lg-12 col-xl-12 align-self-center">
+            <div className="title">
+              <h2>Schedule</h2>
+            </div>
+
+            <div>
+              <div className="block spacer p-top-sm">
+                <div className="row gutter-width-md with-pb-md">
+                  <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
+                    <h5>6:00 PM</h5>
+                  </div>
+
+                  <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
+                    <p>Guests arrive</p>
+                  </div>
+                </div>
               </div>
 
-              <div>
-                <div className="block spacer p-top-sm">
-                  <div className="row gutter-width-md with-pb-md">
-                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
-                      <h5>6:00 PM</h5>
-                    </div>
+              <div className="block spacer p-top-sm">
+                <div className="row gutter-width-md with-pb-md">
+                  <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
+                    <h5>6:30 PM</h5>
+                  </div>
 
-                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
-                      <p>Guests arrive</p>
-                    </div>
+                  <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
+                    <p>Ceremony</p>
                   </div>
                 </div>
+              </div>
 
-                <div className="block spacer p-top-sm">
-                  <div className="row gutter-width-md with-pb-md">
-                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
-                      <h5>6:30 PM</h5>
-                    </div>
+              <div className="block spacer p-top-sm">
+                <div className="row gutter-width-md with-pb-md">
+                  <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
+                    <h5>7:00 PM</h5>
+                  </div>
 
-                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
-                      <p>Ceremony</p>
-                    </div>
+                  <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
+                    <p>Cocktail hour</p>
                   </div>
                 </div>
+              </div>
 
-                <div className="block spacer p-top-sm">
-                  <div className="row gutter-width-md with-pb-md">
-                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
-                      <h5>7:00 PM</h5>
-                    </div>
+              <div className="block spacer p-top-sm">
+                <div className="row gutter-width-md with-pb-md">
+                  <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
+                    <h5>8:00 PM</h5>
+                  </div>
 
-                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
-                      <p>Cocktail hour</p>
-                    </div>
+                  <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
+                    <p>Dinner</p>
                   </div>
                 </div>
+              </div>
 
-                <div className="block spacer p-top-sm">
-                  <div className="row gutter-width-md with-pb-md">
-                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
-                      <h5>8:00 PM</h5>
-                    </div>
+              <div className="block spacer p-top-sm">
+                <div className="row gutter-width-md with-pb-md">
+                  <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
+                    <h5>10:00 PM</h5>
+                  </div>
 
-                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
-                      <p>Dinner</p>
-                    </div>
+                  <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
+                    <p>Music & dancing</p>
                   </div>
                 </div>
+              </div>
 
-                <div className="block spacer p-top-sm">
-                  <div className="row gutter-width-md with-pb-md">
-                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
-                      <h5>10:00 PM</h5>
-                    </div>
-
-                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
-                      <p>Music & dancing</p>
-                    </div>
+              <div className="block spacer p-top-sm">
+                <div className="row gutter-width-md with-pb-md">
+                  <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
+                    <h5>11:30 PM</h5>
                   </div>
-                </div>
 
-                <div className="block spacer p-top-sm">
-                  <div className="row gutter-width-md with-pb-md">
-                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
-                      <h5>11:30 PM</h5>
-                    </div>
-
-                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
-                      <p>Event concludes</p>
-                    </div>
+                  <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
+                    <p>Event concludes</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
       </section>
 
       <section id="contact-me" className="block spacer p-top-xl">
@@ -96,7 +96,8 @@ const AboutContent = () => {
 
             <div className="description max-width-1">
               <p>
-              For the safety of our guests, the event will follow state and local guidance for COVID-19 safety measures.
+                To ensure the wellbeing of all our guests, we will follow state
+                and local guidance for COVID-19 safety measures.
               </p>
             </div>
           </div>
