@@ -31,7 +31,7 @@ const AboutContent = () => {
               <div className="block spacer p-top-sm">
                 <div className="row gutter-width-md with-pb-md">
                   <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
-                    <h5>6:00 PM</h5>
+                    <h5>5:45 PM</h5>
                   </div>
 
                   <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
@@ -43,7 +43,7 @@ const AboutContent = () => {
               <div className="block spacer p-top-sm">
                 <div className="row gutter-width-md with-pb-md">
                   <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
-                    <h5>6:30 PM</h5>
+                    <h5>6:15 PM</h5>
                   </div>
 
                   <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
@@ -55,7 +55,7 @@ const AboutContent = () => {
               <div className="block spacer p-top-sm">
                 <div className="row gutter-width-md with-pb-md">
                   <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
-                    <h5>7:00 PM</h5>
+                    <h5>6:45 PM</h5>
                   </div>
 
                   <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
@@ -67,7 +67,7 @@ const AboutContent = () => {
               <div className="block spacer p-top-sm">
                 <div className="row gutter-width-md with-pb-md">
                   <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
-                    <h5>8:00 PM</h5>
+                    <h5>7:45 PM</h5>
                   </div>
 
                   <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
@@ -79,7 +79,7 @@ const AboutContent = () => {
               <div className="block spacer p-top-sm">
                 <div className="row gutter-width-md with-pb-md">
                   <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
-                    <h5>10:00 PM</h5>
+                    <h5>9:45 PM</h5>
                   </div>
 
                   <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
