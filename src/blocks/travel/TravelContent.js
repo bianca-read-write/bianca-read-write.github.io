@@ -135,7 +135,7 @@ const TravelContent = () => {
                 Butler is a must-try coffeeshop and bakery from Michelin Star
                 Chef, Ryan Butler. Drop by for a pick-me-up in the morning or
                 afternoon featuring coffee from Intelligentsia and an impressive
-                selection of parties and snacks.
+                selection of pastries and snacks.
               </p>
               <p>
                 <a
