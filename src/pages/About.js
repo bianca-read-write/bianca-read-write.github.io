@@ -60,7 +60,7 @@ const About = () => {
                           <p className="contacts-item-description">
                             Saturday, August 27, 2022
                             <br />
-                            5:45 PM to 11:30 PM
+                            5:45 PM to 12:00 AM
                           </p>
                         </div>
                       </div>
