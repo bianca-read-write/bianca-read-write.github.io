@@ -91,7 +91,7 @@ const AboutContent = () => {
               <div className="block spacer p-top-sm">
                 <div className="row gutter-width-md with-pb-md">
                   <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 align-right">
-                    <h5>11:30 PM</h5>
+                    <h5>12:00 AM</h5>
                   </div>
 
                   <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 sm-align-center">
